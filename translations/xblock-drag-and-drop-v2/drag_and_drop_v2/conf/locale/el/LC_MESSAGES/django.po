@@ -2,11 +2,11 @@
 # Copyright (C) 2024 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2024.
-# 
+#
 # Translators:
 # Brian Smith, 2023
 # Nathan Robertson, 2024
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
@@ -27,8 +27,8 @@ msgid ""
 "upright, so the widest layer is located at the bottom, and the narrowest "
 "layer is located at the top."
 msgstr ""
-"Ένα ισοσκελές τρίγωνο με τρία επίπεδα παρόμοιου ύψους, εμφανίζεται ανάποδα, "
-"ώστε το ευρύτερο επίπεδο να βρίσκεται στη βάση και το στενότερο επίπεδο να "
+"Ένα ισοσκελές τρίγωνο με τρία επίπεδα παρόμοιου ύψους. Εμφανίζεται όρθιο, "
+"με το ευρύτερο επίπεδο να βρίσκεται στη βάση και το στενότερο επίπεδο να "
 "βρίσκεται στην κορυφή."
 
 #: default_data.py:14
@@ -737,7 +737,7 @@ msgstr "Μερικές από τις απαντήσεις σας δεν ήταν
 
 #: public/js/drag_and_drop.js:507 public/js/drag_and_drop.js:1236
 msgid "Hints:"
-msgstr "Υπόδειξη"
+msgstr "Υποδείξεις:"
 
 #: public/js/drag_and_drop.js:577
 msgid "Correct"

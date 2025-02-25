@@ -1,8 +1,13 @@
 {
-  "PageTitle": "My Learner Records | {siteName}",
-  "learnerRecords": "My Learner Records",
+  "PageTitle": "Τα Αρχεία Μου | {siteName}",
+  "learnerRecords": "Τα Αρχεία Μάθησής Μου",
+  "certificate.program.card.name": "Πιστοποιητικό Προγράμματος",
+  "certificate.course.card.name": "Πιστοποιητικό Μαθήματος",
   "verifiableCredentials": "Επαληθεύσιμα διαπιστευτήρια",
+  "download.button.error": "Η λήψη εγγραφής προγράμματος απέτυχε",
   "certificate.card.name": "Πιστοποιητικό προγράμματος",
+  "learner.full_name": "{full_name} |",
+  "create.link.error": "Η δημιουργία συνδέσμου εγγραφής προγράμματος απέτυχε. Παρακαλώ αποσυνδεθείτε, συνδεθείτε ξανά και προσπαθήστε ξανά.",
   "certificate.card.organization.label": "Από:",
   "certificate.card.noOrg.text": "Καμία οργάνωση",
   "certificate.card.date.label": "Απονομή στο {date}",
@@ -25,7 +30,7 @@
   "credentials.modal.copyLink.label": "Αντιγραφή συνδέσμου",
   "credentials.modal.error": "Παρουσιάστηκε σφάλμα κατά την προσπάθεια ανάκτησης του πιστοποιητικού του προγράμματός σας. Παρακαλώ δοκιμάστε ξανά αργότερα.",
   "credentials.profile.link": "Επιστροφή στο προφίλ μου",
-  "credentials.list.empty": "Δεν υπάρχει διαθέσιμο πιστοποιητικό. Ολοκληρώστε το πρώτο σας πρόγραμμα για να λάβετε πιστοποιητικό.",
+ "credentials.list.empty": "Δεν υπάρχει διαθέσιμο πιστοποιητικό. Ολοκληρώστε το πρώτο σας μάθημα ή πρόγραμμα για να λάβετε πιστοποιητικό.",
   "credentials.list.error": "Παρουσιάστηκε σφάλμα κατά την προσπάθεια ανάκτησης των πιστοποιητικών του προγράμματός σας. Παρακαλώ δοκιμάστε ξανά αργότερα.",
   "credentials.header": "Επαληθεύσιμα διαπιστευτήρια",
   "credentials.description": "Ένα πιστοποιητικό για ένα πρόγραμμα θα εμφανιστεί στη λίστα μόλις αποκτήσετε όλα τα πιστοποιητικά μαθημάτων σε ένα πρόγραμμα.",
@@ -59,8 +64,8 @@
   "learner.email": "{email}",
   "help.section.header": "Ερωτήσεις σχετικά με τα αρχεία εκμάθησης;",
   "help.section.content.with.link": "Για να μάθετε περισσότερα σχετικά με τις εγγραφές, μπορείτε να {link}",
-  "earned.status.badge": "Κερδηθείς",
-  "not.earned.status.badge": "Δεν έχει κερδηθεί",
+  "earned.status.badge": "Αποκτήθηκε",
+  "not.earned.status.badge": "Δεν έχει αποκτηθεί",
   "partially.completed.status.badge": "Μερικώς Ολοκληρώθηκε",
   "send.records.try.again.button": "Προσπαθήστε ξανά",
   "send.failure.alert.heading": "Δεν ήταν δυνατή η αποστολή της εγγραφής του προγράμματος σας",
@@ -80,5 +85,5 @@
   "records.help.header": "Ερωτήσεις σχετικά με τα αρχεία εκμάθησης;",
   "records.help.description": "Για να μάθετε περισσότερα σχετικά με τα αρχεία μπορείτε",
   "records.help.link": "διαβάστε περισσότερα στην περιοχή βοήθειας των αρχείων μας.",
-  "records.header": "My Learner Records"
+  "records.header": "Τα Αρχεία Μάθησής Μου"
 }

@@ -6,7 +6,7 @@
   "bulk.email.form.schedule.time": "Αποστολή ώρας",
   "bulk.email.form.schedule.time.description": "Εισαγάγετε μια ώρα έναρξης, π.χ. {time}",
   "bulk.email.form.dateTime.error": "Η ημερομηνία και η ώρα δεν μπορούν να είναι κενές και πρέπει να είναι μια ημερομηνία στο μέλλον",
-  "bulk.email.submit.button.default": "Να στείλετε e-mail",
+  "bulk.email.submit.button.default": "Αποστολή email",
   "bulk.email.submit.button.schedule": "Προγραμματισμός email",
   "bulk.email.submit.button.pending": "Υποβάλλεται",
   "bulk.email.submit.button.send.complete": "Δημιουργήθηκε email",
@@ -43,7 +43,7 @@
   "bulk.email.content.history.table.modal.subject": "Θέμα:",
   "bulk.email.content.history.table.modal.sentBy": "Στάλθηκε από:",
   "bulk.email.content.history.table.modal.timeSent": "Ώρα αποστολής:",
-  "bulk.email.content.history.table.modal.sentTo": "Αποστέλλονται:",
+  "bulk.email.content.history.table.modal.sentTo": "Στάλθηκε προς:",
   "bulk.email.content.history.table.modal.messageBody": "Μήνυμα:",
   "bulk.email.content.history.table.viewMessageInstructions": "Για να διαβάσετε ένα απεσταλμένο μήνυμα email, κάντε κλικ στο κουμπί «Προβολή μηνύματος» στον πίνακα.",
   "bulk.email.content.history.table.column.header.subject": "Θέμα",
@@ -87,5 +87,5 @@
   "bulk.email.scheduled.emails.table.sendTo": "Στέλνω σε",
   "bulk.email.scheduled.emails.table.subject": "Θέμα",
   "bulk.email.scheduled.emails.table.Author": "Συγγραφέας",
-  "bulk.email.scheduled.emails.table.confirm.delete": "Διαγράφετε ένα email που έχει προγραμματιστεί να σταλεί στο {date} . Το email δεν θα σταλεί και ο προγραμματισμός ακυρώνεται. Είσαι σίγουρος?"
+  "bulk.email.scheduled.emails.table.confirm.delete": "Διαγράφετε ένα email που έχει προγραμματιστεί να σταλεί στο {date} . Το email δεν θα σταλεί και ο προγραμματισμός ακυρώνεται. Είστε σίγουροι;"
 }

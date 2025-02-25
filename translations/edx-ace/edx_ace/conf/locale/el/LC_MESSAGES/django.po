@@ -2,10 +2,10 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Nathan Robertson, 2024
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -23,8 +23,8 @@ msgstr ""
 
 #: channel/braze.py:105 channel/sailthru.py:172
 msgid "Unsubscribe from this list"
-msgstr "Διαγραφείτε από αυτή τη λίστα"
+msgstr "Κατάργηση εγγραφής από αυτή τη λίστα"
 
 #: channel/sailthru.py:169
 msgid "View on Web"
-msgstr "Προβολή στον Ιστό"
+msgstr "Προβολή στο διαδίκτυο"

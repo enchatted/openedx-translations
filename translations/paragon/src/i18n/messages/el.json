@@ -1,15 +1,21 @@
 {
+  "Hyperlink.externalLinkAltText": {
+    "string": "σε νέα καρτέλα"
+  },
+  "Hyperlink.externalLinkTitle": {
+    "string": "Ανοίγει σε νέα καρτέλα"
+  },
   "dropzone.Dropzone.invalidSizeLessError": {
     "developer_comment": "Ένα μήνυμα που εμφανίζεται όταν ένα αρχείο με μικρότερο από το ελάχιστο επιτρεπόμενο μέγεθος μεταφορτώνεται στο Dropzone.",
-    "string": "Το αρχείο πρέπει να είναι μεγαλύτερο από {size} ."
+    "string": "Το αρχείο πρέπει να είναι μεγαλύτερο από {size}."
   },
   "dropzone.Dropzone.invalidSizeMoreError": {
     "developer_comment": "Ένα μήνυμα που εμφανίζεται όταν ένα αρχείο με μεγαλύτερο από το μέγιστο επιτρεπόμενο μέγεθος μεταφορτώνεται στο Dropzone.",
-    "string": "Το αρχείο πρέπει να είναι μικρότερο από {size} ."
+    "string": "Το αρχείο πρέπει να είναι μικρότερο από {size}."
   },
   "dropzone.Dropzone.invalidType": {
     "developer_comment": "Ένα μήνυμα που εμφανίζεται όταν γίνεται αποστολή ενός αρχείου με λάθος τύπο MIME.",
-    "string": "Ο τύπος αρχείου πρέπει να είναι {count, plural, one { {typeString} file} other {one of {typeString} files}}."
+    "string": "Ο τύπος αρχείου πρέπει να είναι {count, plural, one {αρχείο {typeString}} other {ένα από τα αρχεία {typeString}}}."
   },
   "dropzone.Dropzone.multipleDraggedError": {
     "developer_comment": "Ένα μήνυμα που εμφανίζεται όταν σύρονται πολλά αρχεία στο Dropzone.",
@@ -17,11 +23,11 @@
   },
   "dropzone.Dropzone.unexpectedValidationError": {
     "developer_comment": "Ένα μήνυμα που εμφανίζεται στην επικύρωση αρχείου υπόθεσης στο στοιχείο Dropzone για άγνωστο λόγο.",
-    "string": "Παρουσιάστηκε ένα μη αναμενόμενο πρόβλημα κατά την επικύρωση του αρχείου. ΠΑΡΑΚΑΛΩ προσπαθησε ξανα."
+    "string": "Παρουσιάστηκε ένα μη αναμενόμενο πρόβλημα κατά την επικύρωση του αρχείου. Παρακαλώ προσπαθήστε ξανά."
   },
   "dropzone.Dropzone.uploadError": {
     "developer_comment": "Ένα μήνυμα που εμφανίζεται στη μεταφόρτωση αρχείου υπόθεσης στο στοιχείο Dropzone οδηγεί σε σφάλμα.",
-    "string": "Παρουσιάστηκε πρόβλημα κατά τη μεταφόρτωση του αρχείου σας. ΠΑΡΑΚΑΛΩ προσπαθησε ξανα."
+    "string": "Παρουσιάστηκε πρόβλημα κατά τη μεταφόρτωση του αρχείου σας. Παρακαλώ προσπαθήστε ξανά."
   },
   "pgn.Alert.closeLabel": {
     "developer_comment": "Ετικέτα ενός κουμπιού κλεισίματος στο στοιχείο ειδοποίησης",
@@ -49,7 +55,7 @@
   },
   "pgn.DataTable.BaseSelectionStatus.clearSelectionText": {
     "developer_comment": "Μια ετικέτα με το κουμπί διαγραφής όλων των επιλογών.",
-    "string": "Καθαρή επιλογή"
+    "string": "Εκκαθάριση επιλογής"
   },
   "pgn.DataTable.BaseSelectionStatus.selectAllText": {
     "developer_comment": "Μια ετικέτα για το κουμπί επιλογής όλων.",
@@ -61,7 +67,7 @@
   },
   "pgn.DataTable.BaseSelectionStatus.selectedTextPaginated": {
     "developer_comment": "Κείμενο για την επιλεγμένη ετικέτα κατά τη σελιδοποίηση του πίνακα",
-    "string": "Επιλέχθηκε {numSelectedRows} ( {numSelectedRowsOnPage} φαίνεται παρακάτω)"
+    "string": "Επιλέχθηκε {numSelectedRows} ({numSelectedRowsOnPage} εμφανίζονται παρακάτω)"
   },
   "pgn.DataTable.ExpandAll.collapseAllLabel": {
     "developer_comment": "Ετικέτα ενός κουμπιού ενέργειας που συμπτύσσει όλες τις επεκτάσιμες σειρές του DataTable.",
@@ -73,15 +79,19 @@
   },
   "pgn.DataTable.FilterStatus.clearFiltersText": {
     "developer_comment": "Ένα κείμενο που εμφανίζεται στο κουμπί &quot;Διαγραφή φίλτρων&quot;.",
-    "string": "Καθαρισμός φίλτρων"
+    "string": "Εκκαθάριση φίλτρων"
   },
   "pgn.DataTable.RowStatus.statusText": {
     "developer_comment": "Ένα κείμενο που περιγράφει πόσες σειρές εμφανίζεται στον πίνακα",
-    "string": "Εμφάνιση {firstRow} - {lastRow} του {itemCount} ."
+    "string": "Εμφάνιση {firstRow} - {lastRow} του {itemCount}."
   },
   "pgn.DataTable.SidebarFilters.title": {
     "developer_comment": "Τίτλος για το στοιχείο φίλτρα πλευρικής γραμμής",
     "string": "Φίλτρα"
+  },
+  "pgn.DataTable.paginationLabel": {
+    "developer_comment": "Προσβάσιμο όνομα για το στοιχείο πλοήγησης ενός συστατικού σελιδοποίησης",
+    "string": "σελιδοποίηση πίνακα"
   },
   "pgn.Dropzone.DefaultContent.fileSizeBetween": {
     "developer_comment": "Ένα μήνυμα που εμφανίζεται όταν το μέγεθος του αρχείου μεταφόρτωσης πρέπει να βρίσκεται σε δεδομένο εύρος.",
@@ -97,7 +107,7 @@
   },
   "pgn.Dropzone.DefaultContent.fileTypeRestriction": {
     "developer_comment": "Ένα μήνυμα που εμφανίζεται κατά τη μεταφόρτωση του αρχείου πρέπει να είναι συγκεκριμένου τύπου.",
-    "string": "Μεταφόρτωση {count, plural, one { {firstPart} files} other { {firstPart} or {secondPart} files}}"
+    "string": "Μεταφόρτωση {count, plural, one {αρχείων {firstPart}} other {αρχείων {firstPart} ή {secondPart}}}"
   },
   "pgn.Dropzone.DefaultContent.label": {
     "developer_comment": "Ένα κείμενο που εμφανίζεται ως ετικέτα για την εισαγωγή του στοιχείου Dropzone.",
@@ -109,7 +119,7 @@
   },
   "pgn.Dropzone.UploadProgress.uploadLabel": {
     "developer_comment": "Ένα κείμενο που εμφανίζεται κοντά σε μια γραμμή προόδου κατά τη μεταφόρτωση αρχείου στο στοιχείο Dropzone.",
-    "string": "Μεταφόρτωση {filename} ."
+    "string": "Μεταφόρτωση {filename}."
   },
   "pgn.FormAutosuggest.iconButtonClosed": {
     "developer_comment": "Ένα μήνυμα που εμφανίζεται σε περίπτωση που ανοίξει το μενού αυτόματης πρότασης.",

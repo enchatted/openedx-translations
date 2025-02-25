@@ -2,11 +2,11 @@
 # Copyright (C) 2024 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2024.
-# 
+#
 # Translators:
 # Brian Smith, 2023
 # Nathan Robertson, 2024
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
@@ -27,7 +27,7 @@ msgstr "Έχει ολοκληρώσει ο μαθητής;"
 
 #: done.py:47
 msgid "Align left/right/center"
-msgstr "Στοίχιση αριστερά/δεξιά/κέντρο"
+msgstr "Στοίχιση αριστερά/δεξιά/στο κέντρο"
 
 #: done.py:134
 msgid "Display name"
@@ -38,7 +38,7 @@ msgid ""
 "ISO-8601 formatted string representing the start date of this assignment. We"
 " ignore this."
 msgstr ""
-"Συμβολοσειρά μορφοποιημένη υπό το πρότυπο ISO-8601 που αναπαριστά την "
+"Συμβολοσειρά μορφοποιημένη κατά το πρότυπο ISO-8601 που αναπαριστά την "
 "ημερομηνία έναρξης αυτής της εργασίας. Αυτό το αγνοούμε."
 
 #: done.py:144
@@ -59,7 +59,7 @@ msgid ""
 " the problem is worth the sum of the option point values."
 msgstr ""
 "Καθορίζει τον αριθμό των βαθμών που αξίζει κάθε πρόβλημα. Εάν η τιμή δεν "
-"έχει οριστεί, το πρόβλημα αξίζει το άθροισμα των τιμών των σημείων επιλογής."
+"έχει οριστεί, το πρόβλημα αξίζει το άθροισμα των τιμών βαθμολογίας των επιλογών."
 
 #: templates/done.html:8
 msgid "X"
@@ -106,6 +106,6 @@ msgid ""
 "(If you're a real power-user, in OLX, we do allow you to add an align tag, "
 "which can left-, center-, or right-justify the XBlock)"
 msgstr ""
-"(Εάν είστε πραγματικός χρήστης ισχύος, στο OLX, σας επιτρέπουμε να "
+"(Εάν είστε προχωρημένος χρήστης, στο OLX, σας επιτρέπουμε να "
 "προσθέσετε μια ετικέτα στοίχισης, η οποία μπορεί να δικαιολογήσει το XBlock "
-"αριστερά, κέντρο ή δεξιά)"
+"αριστερά, στο κέντρο ή δεξιά)"

@@ -2,10 +2,10 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Nathan Robertson, 2024
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -44,7 +44,7 @@ msgstr "Μη έγκυρο κλειδί πλαισίου εκμάθησης: {}"
 
 #: api/v1/views.py:124
 msgid "Invalid block key: {}"
-msgstr "Μη έγκυρο κλειδί αποκλεισμού: {}"
+msgstr "Μη έγκυρο κλειδί τμήματος: {}"
 
 #: api/v1/views.py:132
 #, python-brace-format
