@@ -2,11 +2,11 @@
 # Copyright (C) 2024 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2024.
-# 
+#
 # Translators:
 # Brian Smith, 2024
 # Nathan Robertson, 2024
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
@@ -44,7 +44,7 @@ msgid ""
 msgstr ""
 "Η διαχείριση χρήστη έχει απενεργοποιηθεί λόγω του φόρτου της βάσης "
 "δεδομένων. Αυτή η λειτουργία μπορεί να αποκατασταθεί με την ενεργοποίηση του"
-" διακόπτη βάφλα {switch_name} . Να είστε προσεκτικοί όταν ενεργοποιείτε ξανά"
+" διακόπτη Waffle {switch_name} . Να είστε προσεκτικοί όταν ενεργοποιείτε ξανά"
 " αυτόν τον διακόπτη!"
 
 #: core/models.py:41
@@ -387,7 +387,7 @@ msgstr ""
 msgid "This coupon code is not valid for this course. Try a different course."
 msgstr ""
 "Αυτός ο κωδικός κουπονιού δεν είναι έγκυρος για αυτό το μάθημα. Δοκιμάστε "
-"μια διαφορετική πορεία."
+"ένα διαφορετικό μάθημα."
 
 #: courses/models.py:33 extensions/basket/models.py:20
 #: extensions/offer/models.py:238 extensions/payment/models.py:68
@@ -772,7 +772,7 @@ msgstr "Τρέχουσες επιχειρηματικές προσφορές"
 
 #: enterprise/templates/enterprise/enterpriseoffer_list.html:29
 msgid "Enterprise Customer Name"
-msgstr "Όνομα πελάτη επιχείρησης"
+msgstr "Όνομα εταιρικού πελάτη"
 
 #: enterprise/templates/enterprise/enterpriseoffer_list.html:32
 #: programs/templates/programs/programoffer_list.html:31
@@ -2685,7 +2685,7 @@ msgstr "Πληρωμή με Apple Pay"
 
 #: templates/oscar/basket/partials/client_side_checkout_basket.html:190
 msgid "card holder information"
-msgstr "πληροφορίες κατόχου κάρτας"
+msgstr "Στοιχεία κατόχου κάρτας"
 
 #: templates/oscar/basket/partials/client_side_checkout_basket.html:201
 msgid "billing information"

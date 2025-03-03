@@ -2,10 +2,10 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Nathan Robertson, 2024
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -38,7 +38,7 @@ msgstr "Οι πόντοι δεν πρέπει να είναι μεγαλύτερ
 
 #: api.py:134
 msgid "Points must be greater than 0"
-msgstr "Οι πόντοι πρέπει να είναι μεγαλύτεροι από 0"
+msgstr "Οι πόντοι πρέπει να είναι μεγαλύτεροι από 0."
 
 #: api.py:347
 msgid "Wrong course id {} != {}"
@@ -50,12 +50,12 @@ msgstr "Επαναλαμβανόμενο user_id: "
 
 #: api.py:385
 msgid "Grade must be a number"
-msgstr "Ο βαθμός πρέπει να είναι αριθμός"
+msgstr "Ο βαθμός πρέπει να είναι αριθμός."
 
 #: api.py:388
 msgid "Grade must not be negative"
-msgstr "Ο βαθμός δεν πρέπει να είναι αρνητικός"
+msgstr "Ο βαθμός δεν πρέπει να είναι αρνητικός."
 
 #: api.py:642
 msgid "score must be positive"
-msgstr "η βαθμολογία πρέπει να είναι θετική"
+msgstr "η βαθμολογία πρέπει να είναι θετική."

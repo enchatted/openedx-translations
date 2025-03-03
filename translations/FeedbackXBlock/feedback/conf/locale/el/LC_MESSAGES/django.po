@@ -2,11 +2,11 @@
 # Copyright (C) 2024 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2024.
-# 
+#
 # Translators:
 # Brian Smith, 2024
 # Nathan Robertson, 2024
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: feedback.py:28
 msgid "What did you learn from this? What was missing?"
-msgstr "Τι έμαθες από αυτό; Τι έλειπε;"
+msgstr "Τι μάθατε από αυτό; Τι έλειπε;"
 
 #: feedback.py:29
 msgid "How would you rate this as a learning experience?"
@@ -49,11 +49,11 @@ msgstr ""
 
 #: feedback.py:41 feedback.py:163
 msgid "Excellent"
-msgstr "Εξοχος"
+msgstr "Εξαιρετικό"
 
 #: feedback.py:41 feedback.py:164
 msgid "Good"
-msgstr "Καλώς"
+msgstr "Καλό"
 
 #: feedback.py:41 feedback.py:165
 msgid "Average"
@@ -61,11 +61,11 @@ msgstr "Μέτρια"
 
 #: feedback.py:41 feedback.py:166
 msgid "Fair"
-msgstr "Εκθεση"
+msgstr "Μέτριο"
 
 #: feedback.py:41 feedback.py:167
 msgid "Poor"
-msgstr "Φτωχός"
+msgstr "Κακό"
 
 #: feedback.py:76
 msgid "Freeform user prompt"
@@ -106,7 +106,7 @@ msgstr "Μήνυμα ψηφοφορίας"
 
 #: feedback.py:117
 msgid "Thank you for voting!"
-msgstr "ευχαριστούμε που ψηφίσατε!"
+msgstr "Ευχαριστούμε που ψηφίσατε!"
 
 #: feedback.py:122 templates/html/studio_view.html:25
 msgid "Feedback message"
@@ -138,7 +138,7 @@ msgstr "Παρακαλούμε αξιολογήστε τη συνολική εμ
 
 #: feedback.py:169
 msgid "Please take a moment to thoughtfully reflect."
-msgstr "Αφιερώστε λίγο χρόνο για να σκεφτείτε προσεκτικά."
+msgstr "Παρακαλώ αφιερώστε λίγο χρόνο για να σκεφτείτε προσεκτικά"
 
 #: feedback.py:388
 msgid "Please vote!"
@@ -146,7 +146,7 @@ msgstr "Παρακαλώ ψηφίστε!"
 
 #: static/html/feedback_instructor.html:10
 msgid "Unit"
-msgstr "Κεφάλαιο"
+msgstr "Ενότητα"
 
 #: static/html/feedback_instructor.html:13
 msgid "Number of ratings"
@@ -162,7 +162,7 @@ msgstr "Ανατροφοδότηση "
 
 #: static/html/feedback_instructor.html:27
 msgid "See Unit"
-msgstr "Δείτε Μονάδα"
+msgstr "Προβολή Ενότητας"
 
 #: static/html/feedback_instructor.html:40
 msgid "Comment"
@@ -220,11 +220,11 @@ msgstr "Αληθές"
 
 #: templates/html/studio_view.html:39
 msgid "Wheter to show the aggregate report to students."
-msgstr "Αν θα εμφανιστεί η συγκεντρωτική αναφορά στους μαθητές."
+msgstr "Αν θα εμφανίζεται η συγκεντρωτική αναφορά στους εκπαιδευόμενους."
 
 #: templates/html/studio_view.html:44
 msgid "Freeform prompt"
-msgstr "Προτροπή ελεύθερης μορφής"
+msgstr "Προτροπή ελεύθερου κειμένου"
 
 #: templates/html/studio_view.html:47
 msgid "Example: Please provide us feedback on this section."
@@ -240,11 +240,11 @@ msgstr "Αυτό εμφανίζεται ως γκριζαρισμένο κείμ
 
 #: templates/html/studio_view.html:60
 msgid "Likert icon set"
-msgstr "Σύνολο εικονιδίων Likert"
+msgstr "Σύνολο εικονιδίων κλίμακας Likert"
 
 #: templates/html/studio_view.html:62
 msgid "Faces (happy to sad)"
-msgstr "Πρόσωπα (χαρούμενα έως λυπημένα)"
+msgstr "Πρόσωπα (από χαρούμενα έως λυπημένα)"
 
 #: templates/html/studio_view.html:63
 msgid "Faces (sad to happy to sad)"
@@ -261,7 +261,7 @@ msgstr "αστέρια"
 #: templates/html/studio_view.html:68
 msgid "We can either show happy/sad faces, numbers 1-5 or stars."
 msgstr ""
-"Μπορούμε είτε να δείξουμε χαρούμενα/λυπημένα πρόσωπα, αριθμούς 1-5 ή "
+"Μπορείτε να επιλέξετε ανάμεσα σε χαρούμενα/λυπημένα πρόσωπα, αριθμούς 1-5 ή "
 "αστέρια."
 
 #: templates/html/studio_view.html:73
@@ -303,7 +303,7 @@ msgstr "Επιλογή Likert 4"
 
 #: templates/html/studio_view.html:108
 msgid "Example: Fair"
-msgstr "Παράδειγμα: Δίκαιο"
+msgstr "Παράδειγμα: Μέτριο"
 
 #: templates/html/studio_view.html:113
 msgid "Likert option 5"
@@ -311,7 +311,7 @@ msgstr "Επιλογή Likert 5"
 
 #: templates/html/studio_view.html:116
 msgid "Example: Poor"
-msgstr "Παράδειγμα: Κακή"
+msgstr "Παράδειγμα: Κακό"
 
 #: templates/html/studio_view.html:123
 msgid "Save"

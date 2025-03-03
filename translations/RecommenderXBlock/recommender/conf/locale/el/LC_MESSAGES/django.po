@@ -2,11 +2,11 @@
 # Copyright (C) 2024 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2024.
-# 
+#
 # Translators:
 # Brian Smith, 2024
 # Nathan Robertson, 2024
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
@@ -174,7 +174,7 @@ msgstr ""
 
 #: templates/recommender.html:187
 msgid "Location"
-msgstr "Τόπος διαμονής"
+msgstr "Τοποθεσία"
 
 #: templates/recommender.html:189 templates/recommender.html:214
 msgid "Provide a resource location in url, required"
@@ -202,7 +202,7 @@ msgstr "Παρέχετε ένα στιγμιότυπο οθόνης πόρων"
 
 #: templates/recommender.html:201
 msgid "Save change"
-msgstr "Σώσε την αλλαγή"
+msgstr "Αποθήκευση αλλαγής"
 
 #: templates/recommender.html:220
 msgid "Provide a resource description"
@@ -495,7 +495,7 @@ msgstr "Είσοδος σε λειτουργία επεξεργασίας πόρ
 
 #: static/js/src/cats.js:210
 msgid "Entering flag resource mode"
-msgstr "Είσοδος σε λειτουργία πόρων σημαίας"
+msgstr "Είσοδος σε λειτουργία επισήμανσης πόρων"
 
 #: static/js/src/cats.js:211
 msgid "Flag resource"
@@ -511,7 +511,7 @@ msgstr "Υποστηρίξτε τον πόρο"
 
 #: static/js/src/cats.js:216
 msgid "Unendorse resource"
-msgstr "Μη επικυρώσει τον πόρο"
+msgstr "Κατάργηση υποστήριξης πόρου"
 
 #: static/js/src/cats.js:218
 msgid "Remove resource"
@@ -519,7 +519,7 @@ msgstr "Κατάργηση πόρου"
 
 #: static/js/src/cats.js:219
 msgid "Hovering resource"
-msgstr "Πηγή που αιωρείται"
+msgstr "Αιώρηση πάνω από πόρο"
 
 #: static/js/src/cats.js:220
 msgid "A resource was clicked"

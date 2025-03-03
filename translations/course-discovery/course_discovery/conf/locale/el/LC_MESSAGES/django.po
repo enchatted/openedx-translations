@@ -2,13 +2,13 @@
 # edX translation file
 # Copyright (C) 2018 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# 
+#
 # Translators:
 # Translators:
 # Brian Smith, 2024
 # Nathan Robertson, 2024
 # edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
@@ -26,7 +26,7 @@ msgstr ""
 #: apps/api/filters.py:47
 #, python-brace-format
 msgid "No user with the username [{username}] exists."
-msgstr "Δεν υπάρχει χρήστης με το ψευδώνυμο [{username}]."
+msgstr "Δεν υπάρχει λογαριασμός με το όνομα χρήστη [{username}]."
 
 #: apps/api/filters.py:50
 msgid ""
@@ -34,7 +34,7 @@ msgid ""
 "parameter."
 msgstr ""
 "Tο φιλτράρισμα βάσει ονόματος χρήστη επιτρέπεται μόνο σε χρήστες που ανήκουν"
-" στο προσωπικό. Αφαιρέστε την παράμετρο του ονόματος χρήστη."
+" στο προσωπικό. Παρακαλώ αφαιρέστε αυτή την παράμετρο."
 
 #: apps/api/serializers.py:818
 msgid "Number of courses contained in this catalog"
@@ -48,7 +48,7 @@ msgstr ""
 
 #: apps/api/serializers.py:989
 msgid "Start date cannot be after the End date"
-msgstr "Η ημερομηνία έναρξης δεν μπορεί να είναι μετά την ημερομηνία λήξης"
+msgstr "Η ημερομηνία έναρξης δεν μπορεί να είναι μεταγενέστερη της ημερομηνίας λήξης"
 
 #: apps/api/serializers.py:994
 msgid "Term cannot be changed"
@@ -71,10 +71,10 @@ msgstr ""
 #: apps/api/serializers.py:1119
 msgid "Minimum effort and Maximum effort cannot be the same"
 msgstr ""
-"Η ελάχιστη προσπάθεια και η μέγιστη προσπάθεια δεν μπορούν να είναι ίδια"
+"Η ελάχιστη προσπάθεια και η μέγιστη προσπάθεια δεν μπορούν να είναι ίδιες"
 
 #: apps/api/serializers.py:1165
-msgid "Dictionary mapping course run IDs to boolean values"
+msgid ""Αντιστοίχιση αναγνωριστικών εκτέλεσης μαθήματος σε λογικές τιμές""
 msgstr ""
 "Αντιστοίχιση λεξικού αναγνωριστικών εκτέλεσης μαθήματος σε τιμές boolean"
 
@@ -84,7 +84,7 @@ msgstr "Ο Τύπος περιορισμού δεν μπορεί να είναι
 
 #: apps/api/serializers.py:1717
 msgid "Dictionary mapping course IDs to boolean values"
-msgstr "Αντιστοίχιση λεξικού αναγνωριστικών μαθήματος σε τιμές boolean"
+msgstr "Αντιστοίχιση αναγνωριστικών εκτέλεσης μαθήματος σε λογικές τιμές"
 
 #: apps/api/serializers.py:2184
 msgid "Languages that course runs in this program are offered in."
@@ -96,8 +96,8 @@ msgstr ""
 msgid ""
 "Languages that course runs in this program have available transcripts in."
 msgstr ""
-"Οι γλώσσες στις οποίες διατίθενται οι μεταγραφές για τις κανονικές "
-"εκτελέσεις σ' αυτό το πρόγραμμα του κύκλου μαθημάτων."
+"Γλώσσες στις οποίες διατίθενται υπότιτλοι για τις "
+"εκτελέσεις μαθημάτων σε αυτό το πρόγραμμα."
 
 #: apps/api/utils.py:327
 #, python-brace-format
@@ -106,7 +106,7 @@ msgid ""
 "All other fields were successfully saved in Studio."
 msgstr ""
 "Παρουσιάστηκε σφάλμα κατά τον ορισμό της εικόνας εκτέλεσης μαθήματος για το "
-"[ {key} ] στο στούντιο. Όλα τα άλλα πεδία αποθηκεύτηκαν με επιτυχία στο "
+"[ {key} ] στο Studio. Όλα τα άλλα πεδία αποθηκεύτηκαν με επιτυχία στο "
 "Studio."
 
 #: apps/api/v1/exceptions.py:13
@@ -134,8 +134,8 @@ msgstr "Αποτυχία ορισμού δεδομένων εκτέλεσης μ
 #: apps/api/v1/views/course_runs.py:313
 msgid "Can only update status, ofac restrictions, and ofac comment"
 msgstr ""
-"Μπορεί να ενημερώσει μόνο την κατάσταση, τους περιορισμούς ofac και το "
-"σχόλιο ofac"
+"Επιτρέπεται μόνο η ενημέρωση της κατάστασης, των περιορισμών OFAC και των "
+"σχολίων OFAC"
 
 #: apps/api/v1/views/course_runs.py:352
 msgid "Course run is in review. Editing disabled."
@@ -176,7 +176,7 @@ msgid ""
 "Course creation was unsuccessful. The course URL slug ‘[{url_slug}]’ is "
 "already in use. Please update this field and try again."
 msgstr ""
-"Η δημιουργία του μαθήματος ήταν ανεπιτυχής. Ο γυμνοσάλιαγκας διεύθυνσης URL "
+"Η δημιουργία του μαθήματος ήταν ανεπιτυχής. Το αναγνωριστικό URL "
 "του μαθήματος &quot;[ {url_slug} ]&quot; χρησιμοποιείται ήδη. Ενημερώστε "
 "αυτό το πεδίο και δοκιμάστε ξανά."
 
@@ -185,7 +185,7 @@ msgid ""
 "Switching entitlement types after being reviewed is not supported. Please "
 "reach out to your project coordinator for additional help if necessary."
 msgstr ""
-"Η εναλλαγή τύπων δικαιωμάτων μετά τον έλεγχο δεν υποστηρίζεται. "
+"Η αλλαγή τύπων παροχών μετά την ολοκλήρωση της αξιολόγησης δεν υποστηρίζεται. "
 "Επικοινωνήστε με τον συντονιστή του έργου σας για πρόσθετη βοήθεια εάν είναι"
 " απαραίτητο."
 
@@ -195,7 +195,7 @@ msgid ""
 "Course edit was unsuccessful. The course URL slug ‘[{url_slug}]’ is already "
 "in use. Please update this field and try again."
 msgstr ""
-"Η επεξεργασία του μαθήματος ήταν ανεπιτυχής. Ο γυμνοσάλιαγκας διεύθυνσης URL"
+"Η επεξεργασία του μαθήματος ήταν ανεπιτυχής. Το αναγνωριστικό URL"
 " του μαθήματος &quot;[ {url_slug} ]&quot; χρησιμοποιείται ήδη. Ενημερώστε "
 "αυτό το πεδίο και δοκιμάστε ξανά."
 
@@ -209,7 +209,7 @@ msgstr "Όνομα καταλόγου"
 
 #: apps/catalogs/models.py:18
 msgid "Query to retrieve Course Run catalog contents"
-msgstr "Ερώτημα για ανάκτηση του περιεχομένου του καταλόγου Course Run"
+msgstr "Ερώτημα για ανάκτηση του περιεχομένου του καταλόγου εκτελέσεων μαθημάτων"
 
 #: apps/catalogs/models.py:22
 msgid "Query to retrieve Program catalog contents"
@@ -241,14 +241,14 @@ msgstr "Ρύθμιση των API, που θα χρησιμοποιηθούν σ
 
 #: apps/core/admin.py:53
 msgid "Marketing Site Configuration"
-msgstr "Παραμετροποίηση ιστοτόπου Μάρκετινγκ"
+msgstr "Παραμετροποίηση ιστοτόπου Marketing"
 
 #: apps/core/admin.py:54
 msgid ""
 "Configure the marketing site URLs that will be used to retrieve data and "
 "create URLs."
 msgstr ""
-"Παραμετροποιείστε τις διευθύνσεις URL του ιστοτόπου Μάρκετινγκ που θα "
+"Παραμετροποιείστε τις διευθύνσεις URL του ιστοτόπου Marketing που θα "
 "χρησιμοποιηθούν για ανάκτηση δεδομένων και δημιουργία URL"
 
 #: apps/core/admin.py:58
@@ -302,8 +302,8 @@ msgid ""
 "Convenient code/slug used to identify this Partner (e.g. for management "
 "commands.)"
 msgstr ""
-"Εύκολος κωδικός/μοναδική συμβολοσειρά που χρησιμοποιείται για την αναγνώριση"
-" αυτού του Συνεργάτη (π.χ. για εντολές διαχείρισης.)"
+"Εύκολος κωδικός/αναγνωριστικό URL που χρησιμοποιείται για την αναγνώριση"
+" αυτού του Συνεργάτη (π.χ. για εντολές διαχείρισης)"
 
 #: apps/core/models.py:56
 msgid "Courses API URL"
@@ -327,19 +327,19 @@ msgstr "Διεύθυνση URL API προγραμμάτων"
 
 #: apps/core/models.py:65
 msgid "Marketing Site API URL"
-msgstr "Διεύθυνση URL API ιστότοπου μάρκετινγκ"
+msgstr "Διεύθυνση URL API ιστότοπου marketing"
 
 #: apps/core/models.py:67
 msgid "Marketing Site URL"
-msgstr "Διεύθυνση URL ιστότοπου μάρκετινγκ"
+msgstr "Διεύθυνση URL ιστότοπου marketing"
 
 #: apps/core/models.py:69
 msgid "Marketing Site API Username"
-msgstr "Όνομα χρήστη API ιστότοπου μάρκετινγκ"
+msgstr "Όνομα χρήστη API ιστότοπου marketing"
 
 #: apps/core/models.py:71
 msgid "Marketing Site API Password"
-msgstr "Κωδικός πρόσβασης API ιστότοπου μάρκετινγκ"
+msgstr "Κωδικός πρόσβασης API ιστότοπου marketing"
 
 #: apps/core/models.py:73
 msgid "Studio URL"
@@ -347,7 +347,7 @@ msgstr "Διεύθυνση URL Studio"
 
 #: apps/core/models.py:75
 msgid "Publisher URL"
-msgstr "URL εκδότη"
+msgstr "Διεύθυνση URL εκδότη"
 
 #: apps/core/models.py:76
 msgid ""
@@ -363,7 +363,7 @@ msgstr "URL LMS"
 
 #: apps/core/models.py:81
 msgid "LMS Admin URL"
-msgstr "URL διαχειριστή LMS"
+msgstr "Διεύθυνση URL διαχειριστή LMS"
 
 #: apps/core/models.py:82
 msgid ""
@@ -420,7 +420,7 @@ msgid ""
 " try again. If the error persists, please contact the Engineering Team."
 msgstr ""
 "Παρουσιάστηκε σφάλμα κατά τη δημοσίευση του {model} στον ιστότοπο του "
-"μάρκετινγκ. Παρακαλώ ξαναπροσπαθήστε. Αν το σφάλμα παραμένει, παρακαλώ "
+"marketing. Παρακαλώ ξαναπροσπαθήστε. Αν το σφάλμα παραμένει, παρακαλώ "
 "επικοινωνήστε με την Ομάδα Μηχανικών"
 
 #: apps/course_metadata/admin.py:56
@@ -478,7 +478,7 @@ msgstr "Αρχειοθετημένο"
 #: apps/course_metadata/algolia_models.py:314
 #: apps/course_metadata/algolia_models.py:581
 msgid "Certificate courses"
-msgstr "Πιστοποιητικά μαθήματα"
+msgstr "Μαθήματα με πιστοποίηση"
 
 #: apps/course_metadata/algolia_models.py:316
 #: apps/course_metadata/algolia_models.py:587
@@ -488,7 +488,7 @@ msgstr "Πτυχία"
 #: apps/course_metadata/algolia_models.py:318
 #: apps/course_metadata/algolia_models.py:589
 msgid "Paths to degrees"
-msgstr "Διαδρομές σε μοίρες"
+msgstr "Διαδρομές προς πτυχία"
 
 #: apps/course_metadata/algolia_models.py:648
 msgid "Available by subscription"
@@ -700,7 +700,7 @@ msgid ""
 " is defined for partner {partner}"
 msgstr ""
 "Δεν αποστέλλεται μήνυμα ηλεκτρονικού ταχυδρομείου ειδοποίησης για το πρότυπο"
-" {template} επειδή δεν έχει οριστεί URL στούντιο για συνεργάτη {partner}"
+" {template} επειδή δεν έχει οριστεί URL Studio για συνεργάτη {partner}"
 
 #: apps/course_metadata/emails.py:169
 msgid "legal team"
@@ -1245,10 +1245,10 @@ msgstr ""
 
 #: apps/course_metadata/models.py:954
 msgid ""
-"Determines weather the course should be displayed on the owning "
+"Determines whether the course should be displayed on the owning "
 "organization's page"
 msgstr ""
-"Καθορίζει τον καιρό που το μάθημα θα πρέπει να εμφανίζεται στη σελίδα του "
+"Καθορίζει εάν το μάθημα θα πρέπει να εμφανίζεται στη σελίδα του "
 "ιδιοκτήτη του οργανισμού"
 
 #: apps/course_metadata/models.py:1022
@@ -1270,19 +1270,19 @@ msgstr ""
 
 #: apps/course_metadata/models.py:1165
 msgid "U.S. Value Per Lead"
-msgstr "Αξία ΗΠΑ ανά μόλυβδο"
+msgstr "Αξία ΗΠΑ ανά δυνητικό πελάτη"
 
 #: apps/course_metadata/models.py:1166
 msgid "U.S. value per lead in U.S. dollars."
-msgstr "Αξία ΗΠΑ ανά μόλυβδο σε δολάρια ΗΠΑ."
+msgstr "Αξία ΗΠΑ ανά δυνητικό πελάτη σε δολάρια ΗΠΑ."
 
 #: apps/course_metadata/models.py:1171
 msgid "International Value Per Lead"
-msgstr "Διεθνής Αξία ανά Μόλυβδο"
+msgstr "Διεθνής Αξία ανά δυνητικό πελάτη"
 
 #: apps/course_metadata/models.py:1172
 msgid "International value per lead in U.S. dollars."
-msgstr "Διεθνής αξία ανά μόλυβδο σε δολάρια ΗΠΑ."
+msgstr "Διεθνής αξία ανά δυνητικό πελάτη σε δολάρια ΗΠΑ."
 
 #: apps/course_metadata/models.py:1177
 msgid "U.S. Value Per Click"
@@ -1370,8 +1370,8 @@ msgid ""
 "This field signifies if this course is in the enterprise subscription "
 "catalog"
 msgstr ""
-"Αυτό το πεδίο υποδηλώνει εάν αυτό το μάθημα βρίσκεται στον κατάλογο "
-"συνδρομών επιχειρήσεων"
+"Αυτό το πεδίο δείχνει αν το μάθημα περιλαμβάνεται στον κατάλογο "
+"επιχειρηματικών συνδρομών"
 
 #: apps/course_metadata/models.py:1426 apps/course_metadata/models.py:3255
 msgid ""
@@ -1866,7 +1866,7 @@ msgstr "Βιβλίο"
 
 #: apps/course_metadata/models.py:3963
 msgid "Mortar Board"
-msgstr "Σανίδα κονιάματος"
+msgstr "Καπέλο αποφοίτησης"
 
 #: apps/course_metadata/models.py:3964
 msgid "Star"
@@ -2062,12 +2062,12 @@ msgstr "Δεξιότητες Μαθημάτων"
 #: apps/course_metadata/templates/admin/course_metadata/refresh_course_skills.html:22
 #: apps/course_metadata/templates/admin/course_metadata/refresh_course_skills.html:32
 msgid "Refresh Course Skills"
-msgstr "Refresh Course Skills"
+msgstr "Ανανέωση Δεξιοτήτων Μαθήματος"
 
 #: apps/course_metadata/templates/admin/course_metadata/refresh_program_skills.html:22
 #: apps/course_metadata/templates/admin/course_metadata/refresh_program_skills.html:32
 msgid "Refresh Program Skills"
-msgstr "Refresh Program Skills"
+msgstr "Ανανέωση Δεξιοτήτων Προγράμματος"
 
 #: apps/course_metadata/templates/course_metadata/email/comment.html:7
 #, python-format
@@ -2194,7 +2194,7 @@ msgstr "Σελίδα εκδότη: %(course_page_url)s"
 #: apps/course_metadata/templates/course_metadata/email/internal_review.txt:14
 #, python-format
 msgid "Studio page: %(studio_url)s"
-msgstr "Σελίδα στούντιο: %(studio_url)s"
+msgstr "Σελίδα Studio: %(studio_url)s"
 
 #: apps/course_metadata/templates/course_metadata/email/internal_review.txt:19
 #, python-format

@@ -1124,7 +1124,7 @@ msgstr ""
 
 #: apps/course_metadata/models.py:976
 msgid ""
-"Determines weather the course should be displayed on the owning "
+"Determines whether the course should be displayed on the owning "
 "organization's page"
 msgstr ""
 
