@@ -6,6 +6,7 @@
 # Translators:
 # Translators:
 # Brian Smith, 2025
+# Cátia Lopes <catia.lopes@bridgelk.com>, 2025
 # 
 msgid ""
 msgstr ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-23 00:25+0000\n"
 "PO-Revision-Date: 2024-12-18 13:43+0000\n"
-"Last-Translator: Brian Smith, 2025\n"
+"Last-Translator: Cátia Lopes <catia.lopes@bridgelk.com>, 2025\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/open-edx/teams/6205/pt_PT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -442,6 +443,26 @@ msgstr "(guardar e continuar a editar para criar uma ligação)"
 #, python-format
 msgid "Successfully %(status)s %(count)d %(items)s."
 msgstr "Bem-sucedido %(status)s %(count)d %(items)s."
+
+#: apps/course_metadata/algolia_models.py:54
+msgid "Certificates"
+msgstr "Certificados"
+
+#: apps/course_metadata/algolia_models.py:55
+msgid "Pathways to Degrees"
+msgstr "Percursos para graus académicos"
+
+#: apps/course_metadata/algolia_models.py:58
+msgid "Boot Camps"
+msgstr "Programas intensivos"
+
+#: apps/course_metadata/algolia_models.py:65
+msgid "Bachelor’s"
+msgstr "Licenciatura"
+
+#: apps/course_metadata/algolia_models.py:66
+msgid "Master’s"
+msgstr "Mestrado"
 
 #: apps/course_metadata/algolia_models.py:116
 #: apps/course_metadata/algolia_models.py:655
@@ -1415,6 +1436,18 @@ msgstr ""
 #: apps/course_metadata/models.py:2191
 msgid "Estimated number of weeks needed to complete this course run."
 msgstr "Estimativa do número de semanas necessárias para concluir o curso."
+
+#: apps/course_metadata/models.py:2197
+msgid ""
+"A JSON list detailing the available translations for this run. Each element "
+"in the list is a dictionary containing two keys: the language code and the "
+"language label. These entries represent the languages into which the run "
+"content can be translated."
+msgstr ""
+"Uma lista JSON que detalha as traduções disponíveis para esta edição. Cada "
+"elemento da lista é um dicionário com duas chaves: o código da língua e o "
+"nome da língua. Estes elementos representam os idiomas para os quais o "
+"conteúdo desta edição pode ser traduzido."
 
 #: apps/course_metadata/models.py:2206
 msgid "Total number of learners who have enrolled in this course run"
