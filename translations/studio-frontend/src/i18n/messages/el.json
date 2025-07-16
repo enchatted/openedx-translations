@@ -137,7 +137,7 @@
   "startDateStatusLabel": "Ημερομηνία Έναρξης",
   "pacingTypeStatusLabel": "Τύπος διάρκειας",
   "pacingTypeInstructorPaced": "Ρυθμιζόμενης διάρκειας από τον διδάσκοντα",
-  "pacingTypeSelfPaced": "Στον ρυθμό του φοιτητή",
+  "pacingTypeSelfPaced": "Αυτορυθμιζόμενο",
   "editImageModalAssetsListLoadingSpinner": "Δείκτης φόρτωσης",
   "editImageModalAssetsListNoAssetsMessage": "Μεταφορτώθηκαν 0 εικόνες",
   "editImageModalAssetsListNoResultsMessage": "Βρέθηκαν 0 εικόνες",
