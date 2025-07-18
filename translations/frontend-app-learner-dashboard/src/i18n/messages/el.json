@@ -85,7 +85,7 @@
   "leanerDashboard.confirmEmailModalBody": "Σας έχουμε στείλει ένα email για να επαληθεύσουμε τον λογαριασμό σας. Ελέγξτε τα εισερχόμενά σας και κάντε κλικ στο μεγάλο κόκκινο κουμπί για να επιβεβαιώσετε και να συνεχίσετε να μαθαίνετε.",
   "leanerDashboard.confirmEmailImageAlt": "επιβεβαιώστε το φόντο του email",
   "learner-dash.unenrollConfirm.confirm.header": "Κατάργηση εγγραφής από το μάθημα;",
-  "learner-dash.unenrollConfirm.confirm.cancel": "Δεν πειράζει",
+  "learner-dash.unenrollConfirm.confirm.cancel": "Ακύρωση",
   "learner-dash.unenrollConfirm.confirm.unenroll": "Διαγραφή",
   "learner-dash.unenrollConfirm.confirm.reason.heading": "Ποιος είναι ο κύριος λόγος για την κατάργηση της εγγραφής σας;",
   "learner-dash.unenrollConfirm.confirm.reason.skip": "Παράλειψη έρευνας",
