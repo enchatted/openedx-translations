@@ -177,7 +177,7 @@ msgid ""
 "already in use. Please update this field and try again."
 msgstr ""
 "Η δημιουργία του μαθήματος ήταν ανεπιτυχής. Το αναγνωριστικό URL "
-"του μαθήματος &quot;[ {url_slug} ]&quot; χρησιμοποιείται ήδη. Ενημερώστε "
+"του μαθήματος "[ {url_slug} ]" χρησιμοποιείται ήδη. Ενημερώστε "
 "αυτό το πεδίο και δοκιμάστε ξανά."
 
 #: apps/api/v1/views/courses.py:284
@@ -196,7 +196,7 @@ msgid ""
 "in use. Please update this field and try again."
 msgstr ""
 "Η επεξεργασία του μαθήματος ήταν ανεπιτυχής. Το αναγνωριστικό URL"
-" του μαθήματος &quot;[ {url_slug} ]&quot; χρησιμοποιείται ήδη. Ενημερώστε "
+" του μαθήματος "[ {url_slug} ]" χρησιμοποιείται ήδη. Ενημερώστε "
 "αυτό το πεδίο και δοκιμάστε ξανά."
 
 #: apps/api/views.py:58
@@ -755,7 +755,7 @@ msgid ""
 "Enter a valid “slug” consisting of letters, numbers, slashes, underscores or"
 " hyphens."
 msgstr ""
-"Εισαγάγετε ένα έγκυρο &quot;slug&quot; που αποτελείται από γράμματα, "
+"Εισαγάγετε ένα έγκυρο "slug" που αποτελείται από γράμματα, "
 "αριθμούς, κάθετες, κάτω παύλες ή παύλες."
 
 #: apps/course_metadata/forms.py:66
@@ -895,12 +895,12 @@ msgstr ""
 #: apps/course_metadata/management/commands/delete_person_dups.py:60
 msgid "Malformed argument \"{}\", should be in form of UUID:TARGET_UUID"
 msgstr ""
-"Το όρισμα με κακή μορφή &quot;{}&quot;, θα πρέπει να έχει τη μορφή "
+"Το όρισμα με κακή μορφή "{}", θα πρέπει να έχει τη μορφή "
 "UUID:TARGET_UUID"
 
 #: apps/course_metadata/management/commands/delete_person_dups.py:62
 msgid "Malformed argument \"{}\", UUIDs cannot be equal"
-msgstr "Λανθασμένο όρισμα &quot;{}&quot;, τα UUID δεν μπορούν να είναι ίσα"
+msgstr "Λανθασμένο όρισμα "{}", τα UUID δεν μπορούν να είναι ίσα"
 
 #: apps/course_metadata/management/commands/delete_person_dups.py:85
 msgid "Deleting"
@@ -1072,7 +1072,7 @@ msgid ""
 msgstr ""
 "Οι 6 χαρακτήρες-δεκαεξαδική τιμή του χρώματος θέματος οργάνωσης,\n"
 " όλα τα σχετικά μαθήματα στον ίδιο οργανισμό θα χρησιμοποιούν αυτό το χρώμα ως χρώμα θέματος.\n"
-" (π.χ. &quot;#ff0000&quot; που ισούται με κόκκινο) Δεν χρειάζεται να παρέχετε το &quot;#&quot;."
+" (π.χ. "#ff0000" που ισούται με κόκκινο) Δεν χρειάζεται να παρέχετε το "#"."
 
 #: apps/course_metadata/models.py:301
 msgid "The timestamp of the last time the organization data was modified."
@@ -1480,7 +1480,7 @@ msgid ""
 msgstr ""
 "Εάν αυτή η εκτέλεση θα πρέπει να είναι κρυφή από τις απαντήσεις API. Να μην "
 "γίνει επεξεργασία εδώ - αυτή η τιμή θα αντικατασταθεί από το πεδίο "
-"&quot;Ορατότητα μαθήματος στον κατάλογο&quot; στο Studio μέσω Ανανέωσης "
+""Ορατότητα μαθήματος στον κατάλογο" στο Studio μέσω Ανανέωσης "
 "Μεταδεδομένων Μαθήματος."
 
 #: apps/course_metadata/models.py:2164
@@ -1732,7 +1732,7 @@ msgstr "URL επιστροφής κλήσης στη ροή εφαρμογών �
 
 #: apps/course_metadata/models.py:3780
 msgid "Overall program ranking (e.g. \"#1 in the U.S.\")"
-msgstr "Συνολική κατάταξη προγράμματος (π.χ. &quot;#1 στις ΗΠΑ&quot;)"
+msgstr "Συνολική κατάταξη προγράμματος (π.χ. "#1 στις ΗΠΑ")"
 
 #: apps/course_metadata/models.py:3785
 msgid ""
@@ -1740,7 +1740,7 @@ msgid ""
 "            (e.g. \"#ff0000\" which equals red) No need to provide the `#`"
 msgstr ""
 "Η εξαγωνική τιμή 6 χαρακτήρων του χρώματος για τη δημιουργία περιγράμματος του banner\n"
-" (π.χ. &quot;#ff0000&quot; που ισούται με κόκκινο) Δεν χρειάζεται να παρέχετε το &quot;#&quot;."
+" (π.χ. "#ff0000" που ισούται με κόκκινο) Δεν χρειάζεται να παρέχετε το "#"."
 
 #: apps/course_metadata/models.py:3794
 msgid "Provide a campus image for the header of the degree"
@@ -1798,15 +1798,15 @@ msgstr ""
 
 #: apps/course_metadata/models.py:3876
 msgid "Ranking display for search card (e.g. \"#1 in the U.S.\""
-msgstr "Οθόνη κατάταξης για κάρτα αναζήτησης (π.χ. &quot;#1 στις ΗΠΑ&quot;"
+msgstr "Οθόνη κατάταξης για κάρτα αναζήτησης (π.χ. "#1 στις ΗΠΑ""
 
 #: apps/course_metadata/models.py:3882
 msgid "Cost display for search card (e.g. \"$9,999\""
-msgstr "Ένδειξη κόστους για κάρτα αναζήτησης (π.χ. &quot;9.999 $&quot;"
+msgstr "Ένδειξη κόστους για κάρτα αναζήτησης (π.χ. "9.999 $""
 
 #: apps/course_metadata/models.py:3888
 msgid "Number of courses for search card (e.g. \"11 Courses\""
-msgstr "Αριθμός μαθημάτων για κάρτα αναζήτησης (π.χ. &quot;11 μαθήματα&quot;"
+msgstr "Αριθμός μαθημάτων για κάρτα αναζήτησης (π.χ. "11 μαθήματα""
 
 #: apps/course_metadata/models.py:3896
 msgid ""
@@ -1917,8 +1917,8 @@ msgid ""
 "            text is the first 750 characters of \"marketing_text\" and must be\n"
 "            valid HTML."
 msgstr ""
-"Μια επισκόπηση υψηλού επιπέδου του προγράμματος σπουδών του πτυχίου. Η &quot;σύντομη&quot;\n"
-" Το κείμενο είναι οι πρώτοι 750 χαρακτήρες του &quot;marketing_text&quot; και πρέπει να είναι\n"
+"Μια επισκόπηση υψηλού επιπέδου του προγράμματος σπουδών του πτυχίου. Η "σύντομη"\n"
+" Το κείμενο είναι οι πρώτοι 750 χαρακτήρες του "marketing_text" και πρέπει να είναι\n"
 " έγκυρο HTML."
 
 #: apps/course_metadata/models.py:4062
