@@ -663,7 +663,7 @@ msgstr "Η δεδομένη διεύθυνση email {email} δεν είναι �
 #: enterprise/forms.py:290
 msgid "An offer already exists for this Enterprise & Catalog combination."
 msgstr ""
-"Υπάρχει ήδη μια προσφορά για αυτόν τον συνδυασμό Enterprise &amp; Catalog."
+"Υπάρχει ήδη μια προσφορά για αυτόν τον συνδυασμό Enterprise & Catalog."
 
 #: enterprise/forms.py:293 enterprise/forms.py:302 programs/forms.py:73
 msgid "Percentage discounts cannot be greater than 100%."

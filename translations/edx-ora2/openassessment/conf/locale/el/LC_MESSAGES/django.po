@@ -500,7 +500,7 @@ msgstr ""
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:23
 msgid "View Options & Configuration"
-msgstr "Προβολή Επιλογών &amp; Διαμόρφωσης"
+msgstr "Προβολή Επιλογών & Διαμόρφωσης"
 
 #: templates/legacy/edit/oa_edit_peer_assessment.html:29
 msgid "Must Grade"
@@ -546,7 +546,7 @@ msgid ""
 msgstr ""
 "Αυτή η δυνατότητα ενεργοποιείται από τη ρύθμιση σε επίπεδο μαθήματος. "
 "Μπορείτε να το βρείτε στην κάρτα Open Response Assessment Settings στη "
-"σελίδα του Studio Pages &amp; Resources."
+"σελίδα του Studio Pages & Resources."
 
 #: templates/legacy/edit/oa_edit_peer_assessment_schedule.html:5
 msgid "Peer Assessment Deadlines"
@@ -1260,9 +1260,9 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"Αυτή είναι μια ομαδική ανάθεση για το σύνολο ομάδας &quot; %(teamset_name)s &quot;.\n"
-" Αυτήν τη στιγμή δεν είστε σε μια ομάδα στο σύνολο ομάδας &quot; %(teamset_name)s &quot;.\n"
-" Πρέπει να είστε σε μια ομάδα στο σύνολο ομάδας &quot; %(teamset_name)s &quot; για να αποκτήσετε πρόσβαση σε αυτήν την ανάθεση ομάδας.\n"
+"Αυτή είναι μια ομαδική ανάθεση για το σύνολο ομάδας \" %(teamset_name)s \".\n"
+" Αυτήν τη στιγμή δεν είστε σε μια ομάδα στο σύνολο ομάδας \" %(teamset_name)s \".\n"
+" Πρέπει να είστε σε μια ομάδα στο σύνολο ομάδας \" %(teamset_name)s \" για να αποκτήσετε πρόσβαση σε αυτήν την ανάθεση ομάδας.\n"
 "            "
 
 #: templates/legacy/message/oa_message_open.html:7

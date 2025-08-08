@@ -258,7 +258,7 @@
   "notification.preference.channel": "{ text, select, web {Web} email {Email} push {Push} other { {text} } }",
   "notification.preference.type.label": "Τύπος",
   "notification.preference.web.label": "Ιστός",
-  "notification.preference.help.email": "Email",
+  "notification.preference.help.email": "Ηλεκτρονικό ταχυδρομείο",
   "notification.preference.help.push": "Σπρώξτε",
   "notification.preference.load.more.courses": "Φόρτωση περισσότερων μαθημάτων",
   "notification.preference.guide.link": "όπως αναλυτικά εδώ",
