@@ -13,6 +13,7 @@
 # Translators:
 # Brian Smith, 2025
 # Eden Huthmacher, 2025
+# Ali Işıngör <ali@artistanbul.io>, 2025
 # 
 #, fuzzy
 msgid ""
@@ -21,7 +22,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-10-23 00:32+0000\n"
 "PO-Revision-Date: 2024-12-18 13:43+0000\n"
-"Last-Translator: Eden Huthmacher, 2025\n"
+"Last-Translator: Ali Işıngör <ali@artistanbul.io>, 2025\n"
 "Language-Team: Turkish (Turkey) (https://app.transifex.com/open-edx/teams/6205/tr_TR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3603,6 +3604,12 @@ msgid_plural "{numUsersAdded} learners have been added to this cohort. "
 msgstr[0] "{numUsersAdded} öğrenci bu kohorta eklendi. "
 msgstr[1] "{numUsersAdded} öğrenci bu kohorta eklendi. "
 
+#: lms/static/js/groups/views/cohort_editor.js:205
+msgid "{numPresent} learner was already in the cohort"
+msgid_plural "{numPresent} learners were already in the cohort"
+msgstr[0] "{numPresent} öğrenci zaten kohorttaydı"
+msgstr[1] "{numPresent} öğrenci zaten kohorttaydı"
+
 #: lms/static/js/groups/views/cohort_editor.js:231
 msgid "{email}"
 msgstr "{email}"
@@ -3618,6 +3625,12 @@ msgstr "Geçersiz e-posta adresi: {email}"
 #: lms/static/js/groups/views/cohort_editor.js:284
 msgid "Cohort assignment not allowed: {email_or_username}"
 msgstr "Kohort atamasına izin verilmiyor: {email_or_username}"
+
+#: lms/static/js/groups/views/cohort_editor.js:291
+msgid "There was an error when trying to add learners:"
+msgid_plural "{numErrors} learners could not be added to this cohort:"
+msgstr[0] "Öğrenci eklemeye çalışırken bir hata oluştu:"
+msgstr[1] "{numErrors} öğrenci bu kohorta eklenemedi:"
 
 #: lms/static/js/groups/views/cohort_editor.js:306
 msgid "View all errors"
@@ -3902,6 +3915,12 @@ msgstr "Tüm hesaplar başarı bir şekilde oluşturulmuştur."
 #: lms/static/js/instructor_dashboard/membership.js:457
 msgid "Error adding/removing users as beta testers."
 msgstr "Kullanıcıları beta sınayıcıları olarak ekler/çıkarırken hata oluştu."
+
+#. Translators: For cases when the input field is empty;
+#: lms/static/js/instructor_dashboard/membership.js:518
+#: lms/static/js/instructor_dashboard/membership.js:728
+msgid "This field must not be blank"
+msgstr "Bu alan boş bırakılmamalıdır"
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:534
@@ -4658,6 +4677,17 @@ msgstr "Parolanızı Sıfırlayın"
 #: lms/static/js/student_account/components/PasswordResetInput.jsx:15
 msgid "Error: "
 msgstr "Hata: "
+
+#: lms/static/js/student_account/components/StudentAccountDeletion.jsx:41
+#: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:97
+msgid ""
+"You may also lose access to verified certificates and other program "
+"credentials. You can make a copy of these for your records before proceeding"
+" with deletion."
+msgstr ""
+"Doğrulanmış sertifikalara ve diğer program kimlik bilgilerine erişiminizi de"
+" kaybedebilirsiniz. Silme işlemine devam etmeden önce kayıtlarınız için "
+"bunların bir kopyasını alabilirsiniz."
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx:46
 msgid ""
@@ -5443,6 +5473,12 @@ msgstr "Bu sayfaya yer imi koy"
 msgid "Bookmarked"
 msgstr "Yer imi kondu"
 
+#: openedx/features/course_search/static/course_search/js/views/search_results_view.js:69
+msgid "{total_results} result found for \"{search_term}\""
+msgid_plural "{total_results} results found for \"{search_term}\""
+msgstr[0] "{search_term} terimi için {total_results} sonuç bulundu"
+msgstr[1] "{search_term} terimi için {total_results} sonuç bulundu"
+
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:68
 msgid "Profile Visibility:"
 msgstr "Profil Görünürlüğü:"
@@ -5562,6 +5598,58 @@ msgstr "Yorum"
 #: xmodule/js/src/annotatable/display.js:404
 msgid "Reply to Annotation"
 msgstr "İpuçlarına Yanıt Ver"
+
+#. Translators: {num_points} is the number of points possible (examples: 1, 3,
+#. 10).;
+#: xmodule/js/src/capa/display.js:235
+msgid "{num_points} point possible (graded, results hidden)"
+msgid_plural "{num_points} points possible (graded, results hidden)"
+msgstr[0] "{num_points} alınabilir puan (not verildi, sonuçlar gizlendi)"
+msgstr[1] "{num_points} alınabilir puan (not verildi, sonuçlar gizlendi)"
+
+#. Translators: {num_points} is the number of points possible (examples: 1, 3,
+#. 10).;
+#: xmodule/js/src/capa/display.js:242
+msgid "{num_points} point possible (ungraded, results hidden)"
+msgid_plural "{num_points} points possible (ungraded, results hidden)"
+msgstr[0] "{num_points} alınabilir puan (notlandırılmayan, sonuçlar gizli)"
+msgstr[1] "{num_points} alınabilir puan (notlandırılmayan, sonuçlar gizli)"
+
+#. Translators: {num_points} is the number of points possible (examples: 1, 3,
+#. 10).;
+#: xmodule/js/src/capa/display.js:253
+msgid "{num_points} point possible (graded)"
+msgid_plural "{num_points} points possible (graded)"
+msgstr[0] "{num_points} alınabilir puan (notlandırılan)"
+msgstr[1] "{num_points} alınabilir puan (notlandırılan)"
+
+#. Translators: {num_points} is the number of points possible (examples: 1, 3,
+#. 10).;
+#: xmodule/js/src/capa/display.js:259
+msgid "{num_points} point possible (ungraded)"
+msgid_plural "{num_points} points possible (ungraded)"
+msgstr[0] "{num_points} alınabilir puan (notlandırılmayan)"
+msgstr[1] "{num_points} alınabilir puan (notlandırılmayan)"
+
+#. Translators: {earned} is the number of points earned. {possible} is the
+#. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
+#. points will always be at least 1. We pluralize based on the total number of
+#. points (example: 0/1 point; 1/2 points);
+#: xmodule/js/src/capa/display.js:269
+msgid "{earned}/{possible} point (graded)"
+msgid_plural "{earned}/{possible} points (graded)"
+msgstr[0] "{possible} üzerinden {earned} puan (notlandırılan)"
+msgstr[1] "{possible} üzerinden {earned} puan (notlandırılan)"
+
+#. Translators: {earned} is the number of points earned. {possible} is the
+#. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
+#. points will always be at least 1. We pluralize based on the total number of
+#. points (example: 0/1 point; 1/2 points);
+#: xmodule/js/src/capa/display.js:276
+msgid "{earned}/{possible} point (ungraded)"
+msgid_plural "{earned}/{possible} points (ungraded)"
+msgstr[0] "{possible} üzerinden {earned} puan (notlandırılmayan)"
+msgstr[1] "{possible} üzerinden {earned} puan (notlandırılmayan)"
 
 #: xmodule/js/src/capa/display.js:349
 msgid "The grading process is still running. Refresh the page to see updates."
@@ -7026,6 +7114,24 @@ msgstr "Video bitti"
 msgid "Video position"
 msgstr "Video pozisyonu"
 
+#: xmodule/js/src/video/06_video_progress_slider.js:324
+msgid "%(value)s hour"
+msgid_plural "%(value)s hours"
+msgstr[0] "%(value)s saat"
+msgstr[1] "%(value)s saat"
+
+#: xmodule/js/src/video/06_video_progress_slider.js:327
+msgid "%(value)s minute"
+msgid_plural "%(value)s minutes"
+msgstr[0] "%(value)s dakika"
+msgstr[1] "%(value)s dakika"
+
+#: xmodule/js/src/video/06_video_progress_slider.js:330
+msgid "%(value)s second"
+msgid_plural "%(value)s seconds"
+msgstr[0] "%(value)s saniye"
+msgstr[1] "%(value)s saniye"
+
 #: xmodule/js/src/video/07_video_volume_control.js:70
 msgid ""
 "Click on this button to mute or unmute this video or press UP or DOWN "
@@ -7189,6 +7295,10 @@ msgstr "başarısızlığa dair ayrıntılar"
 #: cms/templates/js/add-xblock-component-button.underscore:7
 msgid "Add Component:"
 msgstr "Bileşen Ekle:"
+
+#: cms/templates/js/add-xblock-component-button.underscore:10
+msgid "Beta"
+msgstr "Beta"
 
 #: cms/templates/js/add-xblock-component-menu-problem.underscore:3
 #: cms/templates/js/add-xblock-component-menu.underscore:4
@@ -7439,6 +7549,14 @@ msgstr "Bir birim tarafından kullanımdaysa silinemez"
 msgid "Subsection Visibility"
 msgstr "Altbölüm Görünürlüğü"
 
+#: cms/templates/js/content-visibility-editor.underscore:7
+msgid ""
+"To hide the subsections and keep them accesible through links, you must "
+"adjust it from the section that contains them."
+msgstr ""
+"Alt bölümleri gizlemek ve bağlantılar aracılığıyla erişilebilir durumda "
+"tutmak için, onları içeren bölümden ayarlama yapmanız gerekir."
+
 #: cms/templates/js/content-visibility-editor.underscore:13
 msgid "Show entire subsection"
 msgstr "Tüm altbölümü göster"
@@ -7575,6 +7693,15 @@ msgstr ""
 msgid "Upload Photo"
 msgstr "Fotoğraf Yükle"
 
+#: cms/templates/js/course-manage-tags.underscore:3
+msgid "Course tags"
+msgstr "Ders etiketleri"
+
+#: cms/templates/js/course-manage-tags.underscore:7
+#: cms/templates/js/tag-list.underscore:28
+msgid "Manage tags"
+msgstr "Etiketleri yönet"
+
 #: cms/templates/js/course-outline.underscore:48
 #, python-format
 msgid "Prerequisite: %(prereq_display_name)s"
@@ -7583,6 +7710,14 @@ msgstr "Ön gereklilik: %(prereq_display_name)s"
 #: cms/templates/js/course-outline.underscore:56
 msgid "Contains staff only content"
 msgstr "Sadece personele özel içerikleri içerir"
+
+#: cms/templates/js/course-outline.underscore:60
+msgid ""
+"Hidden in the course outline, but sections are accessible for your learners "
+"through their separate link."
+msgstr ""
+"Ders anahattında gizlidir, ancak bölümlere öğrencileriniz kendi ayrı "
+"bağlantıları üzerinden erişebilir."
 
 #: cms/templates/js/course-outline.underscore:71
 msgid "Unpublished changes to live content"
@@ -7653,6 +7788,16 @@ msgstr "Gözetim Ayarları"
 msgid "Configure"
 msgstr "Yapılandırma"
 
+#: cms/templates/js/course-outline.underscore:215
+#: cms/templates/js/tag-count.underscore:2
+#: cms/templates/js/tag-count.underscore:5
+msgid "Manage Tags"
+msgstr "Etiketleri Yönet"
+
+#: cms/templates/js/course-outline.underscore:220
+msgid "Copy to Clipboard"
+msgstr "Panoya Kopyala"
+
 #: cms/templates/js/course-outline.underscore:225
 #: cms/templates/js/course-outline.underscore:248
 #: cms/templates/js/course-outline.underscore:250
@@ -7710,6 +7855,10 @@ msgstr "Altbölüm ders bitiş tarihinden sonra gizlenecek"
 msgid "Subsection is hidden after due date"
 msgstr "Altbölüm şu tarihten sonra gizlenecek"
 
+#: cms/templates/js/course-outline.underscore:428
+msgid "Share"
+msgstr "Paylaş"
+
 #: cms/templates/js/course-outline.underscore:457
 #: cms/templates/js/xblock-outline.underscore:57
 msgid "You haven't added any content to this course yet."
@@ -7722,6 +7871,19 @@ msgstr "Henüz bir ders içeriği eklenmedi."
 #, python-format
 msgid "Click to add a new %(xblock_type)s"
 msgstr "Yeni bir %(xblock_type)s eklemek için tıklayınız"
+
+#: cms/templates/js/course-outline.underscore:501
+#, python-format
+msgid "Paste %(xblock_type)s"
+msgstr "%(xblock_type)s yapıştırın"
+
+#: cms/templates/js/course-outline.underscore:510
+msgid "From:"
+msgstr "Gönderen:"
+
+#: cms/templates/js/course-outline.underscore:513
+msgid "What's in my clipboard?"
+msgstr "Panomda ne var?"
 
 #: cms/templates/js/course-settings-learning-fields.underscore:2
 msgid "Learning Outcome"
@@ -7871,6 +8033,17 @@ msgstr ""
 msgid "Warning: "
 msgstr "Uyarı:"
 
+#: cms/templates/js/course_grade_policy.underscore:47
+msgid "There are no assignments of this type in the course."
+msgstr "Derste bu tür ödevler bulunmamaktadır."
+
+#: cms/templates/js/course_grade_policy.underscore:71
+msgid ""
+"The number of {type} assignments in the course matches the number defined "
+"here."
+msgstr ""
+"Dersteki {type} ödevlerinin sayısı burada tanımlanan sayıyla eşleşiyor."
+
 #: cms/templates/js/course_info_handouts.underscore:3
 msgid "Course Handouts"
 msgstr "Ders Notları"
@@ -7907,6 +8080,15 @@ msgstr "Tartışmayı genişlet"
 #: cms/templates/js/discussion-editor.underscore:12
 msgid "Topics for unpublished units would not be created"
 msgstr "Yayımlanmamış üniteler için konular oluşturulmaz"
+
+#: cms/templates/js/discussion-editor.underscore:16
+msgid "Please enable discussions for graded units from the"
+msgstr ""
+"Lütfen not verilen ünitelere ilişkin tartışmaları şuradan etkinleştirin"
+
+#: cms/templates/js/discussion-editor.underscore:24
+msgid "Discussion Configuration"
+msgstr "Tartışma Yapılandırması"
 
 #: cms/templates/js/due-date-editor.underscore:3
 msgid "Due Date:"
@@ -7983,6 +8165,32 @@ msgstr "Bir Bölüm Ekle"
 #: cms/templates/js/edit-title-button.underscore:1
 msgid "Edit Title"
 msgstr "Başlığı Düzenle"
+
+#: cms/templates/js/embed-link-share-link-editor.underscore:5
+msgid ""
+"Embed your subsection content directly on a page using an iframe, and view "
+"it without the LMS header and footer."
+msgstr ""
+"Alt bölüm içeriğinizi iframe kullanarak doğrudan sayfaya gömün ve LMS "
+"üstbilgisi ve altbilgisi olmadan görüntüleyin."
+
+#: cms/templates/js/embed-link-share-link-editor.underscore:11
+#: cms/templates/js/full-page-share-link-editor.underscore:11
+msgid "Click to copy link to clipboard"
+msgstr "Bağlantıyı panoya kopyalamak için tıklayın"
+
+#: cms/templates/js/embed-link-share-link-editor.underscore:15
+#: cms/templates/js/full-page-share-link-editor.underscore:15
+msgid "Copy link"
+msgstr "Bağlantıyı kopyala"
+
+#: cms/templates/js/full-page-share-link-editor.underscore:5
+msgid ""
+"When sharing this link with your learners, they will see the content of the "
+"subsection along with the header and footer of your LMS."
+msgstr ""
+"Bu bağlantıyı öğrencilerinizle paylaştığınızda, alt bölümün içeriğini LMS "
+"üstbilgisi ve altbilgisiyle birlikte görecekler."
 
 #: cms/templates/js/grading-editor.underscore:1
 msgid "Grading"
@@ -8330,6 +8538,10 @@ msgstr "Öğrencilerden gizle"
 msgid "Note: Do not hide graded assignments after they have been released."
 msgstr "Not: Notlandırılmış görevleri yayınlandıktan sonra gizlemeyin."
 
+#: cms/templates/js/publish-xblock.underscore:137
+msgid "Copy Unit"
+msgstr "Üniteyi kopyala"
+
 #: cms/templates/js/release-date-editor.underscore:1
 msgid "Release Date and Time"
 msgstr "Yayım Tarih ve Zamanı"
@@ -8362,6 +8574,14 @@ msgid ""
 msgstr ""
 "Bir öğrenci {startDate} tarihinde başlarsa, bu alt bölüm {projectedDueIn} "
 "tarihinde sona erecektir."
+
+#: cms/templates/js/self-paced-due-date-editor.underscore:23
+msgid ""
+"The minimum number of weeks this subsection can be due in is 1 week from the"
+" learner enrollment date."
+msgstr ""
+"Bu alt bölümün geçerli olabileceği minimum hafta sayısı, öğrencinin kayıt "
+"tarihinden itibaren 1 haftadır."
 
 #: cms/templates/js/show-correctness-editor.underscore:2
 msgid "Assessment Results Visibility"
@@ -8498,6 +8718,29 @@ msgstr "Ünite Görünürlüğü"
 msgid "Section Visibility"
 msgstr "Bölüm Görünürlüğü"
 
+#: cms/templates/js/staff-lock-editor.underscore:14
+msgid "Visible to learners"
+msgstr "Öğrenciler tarafından görülebilir"
+
+#: cms/templates/js/staff-lock-editor.underscore:16
+msgid ""
+"It is visible to learners, ensuring that all learners can view its contents."
+msgstr ""
+"Öğrenciler tarafından görülebilir, böylece tüm öğrencilerin içeriğini "
+"görüntülemesi sağlanır."
+
+#: cms/templates/js/staff-lock-editor.underscore:22
+msgid "Hide in Course Outline, accessible via Link"
+msgstr "Ders Anahattı'nda gizli, bağlantı yoluyla erişilebilir"
+
+#: cms/templates/js/staff-lock-editor.underscore:24
+msgid ""
+"It is intentionally hidden from standard navigation, ensuring that only "
+"individuals with the link can view its contents."
+msgstr ""
+"Standart gezinmeden kasıtlı olarak gizlenmiştir ve yalnızca bağlantıya sahip"
+" olan kişilerin içeriğini görebilmesini sağlar."
+
 #: cms/templates/js/staff-lock-editor.underscore:45
 msgid ""
 "If the unit was previously published and released to learners, any changes "
@@ -8518,6 +8761,14 @@ msgstr ""
 " tarihi geçtikten ve üniteyi yayımladıktan sonra öğrenciler bu içeriği "
 "görebilecek. Sadece öğrencilerden açıkça gizlenen üniteler %(xblockType)s "
 "için bu seçenek kaldırıldıktan sonra görünmez kalacak."
+
+#: cms/templates/js/summary-configuration-editor.underscore:3
+msgid "Xpert unit summaries"
+msgstr "Xpert ünite özetleri"
+
+#: cms/templates/js/summary-configuration-editor.underscore:8
+msgid "Enable summaries"
+msgstr "Özetleri etkinleştir"
 
 #: cms/templates/js/team-member.underscore:4
 msgid "Current Role:"
@@ -9106,6 +9357,13 @@ msgstr "İletinizi aşağıda düzenleyin."
 #: common/static/common/templates/discussion/templates.underscore:147
 msgid "Update post"
 msgstr "İleti güncelle"
+
+#: common/static/common/templates/discussion/templates.underscore:154
+#, python-format
+msgid "Show Comment (%(num_comments)s)"
+msgid_plural "Show Comments (%(num_comments)s)"
+msgstr[0] "(%(num_comments)s) Yorumu Göster"
+msgstr[1] "(%(num_comments)s) Yorumu Göster"
 
 #: common/static/common/templates/discussion/templates.underscore:164
 #: common/static/common/templates/discussion/templates.underscore:166
@@ -9852,6 +10110,10 @@ msgstr ""
 msgid "Financial Assistance Application"
 msgstr "Mali Yardım Başvurusu"
 
+#: lms/templates/financial-assistance/financial_assessment_form.underscore:14
+msgid "Profile Information"
+msgstr "Profil Bilgisi"
+
 #: lms/templates/financial-assistance/financial_assessment_form.underscore:24
 msgid "Email address"
 msgstr "E-posta adresi"
@@ -9863,6 +10125,10 @@ msgstr "Yasal ad"
 #: lms/templates/financial-assistance/financial_assessment_form.underscore:32
 msgid "Country of residence"
 msgstr "İkamet edilen ülke"
+
+#: lms/templates/financial-assistance/financial_assessment_form.underscore:36
+msgid "Application Details"
+msgstr "Başvuru Detayları"
 
 #: lms/templates/financial-assistance/financial_assessment_form.underscore:42
 msgid "Submit Application"
@@ -10125,6 +10391,13 @@ msgstr ""
 msgid "Create a content group"
 msgstr "İçerik grubu yarat"
 
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:5
+#, python-format
+msgid "(contains %(student_count)s student)"
+msgid_plural "(contains %(student_count)s students)"
+msgstr[0] "(%(student_count)s öğrenci içeriyor)"
+msgstr[1] "(%(student_count)s öğrenci içeriyor)"
+
 #: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:14
 msgid ""
 "Learners are added to this cohort only when you provide their email "
@@ -10320,6 +10593,19 @@ msgstr ""
 "Yeni açılmış dersleri tarayın ve ilginizi çeken konularda ne yenilikler var "
 "görüntüleyin"
 
+#: lms/templates/learner_dashboard/explore_new_programs.underscore:6
+msgid "Explore new programs"
+msgstr "Yeni programları keşfedin"
+
+#: lms/templates/learner_dashboard/program_card.underscore:16
+#: lms/templates/learner_dashboard/program_card.underscore:24
+#: lms/templates/learner_dashboard/program_card.underscore:32
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore:15
+msgid "Course"
+msgid_plural "Courses"
+msgstr[0] "Ders"
+msgstr[1] "Dersler"
+
 #: lms/templates/learner_dashboard/program_card.underscore:18
 msgid "Completed"
 msgstr "Tamamlandı"
@@ -10384,6 +10670,14 @@ msgstr "Ek Mesleki Fırsatlar"
 msgid "Congratulations!"
 msgstr "Kutlarız!"
 
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:35
+#: lms/templates/learner_dashboard/program_details_view.underscore:10
+#, python-format
+msgid ""
+"You have successfully completed all the requirements for the %(title)s "
+"%(type)s."
+msgstr "%(title)s %(type)s için tüm gereksinimleri başarıyla tamamladınız."
+
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:40
 #: lms/templates/learner_dashboard/program_details_view.underscore:15
 msgid "Your Program Journey"
@@ -10433,6 +10727,10 @@ msgstr "Alanınızda öne çıkmanızı sağlamak için derslerinizi tamamlayın
 #: lms/templates/learner_dashboard/program_header_view.underscore:15
 msgid "{organization}\\'s logo"
 msgstr "{organization} logosu"
+
+#: lms/templates/learner_dashboard/program_list_header_view.underscore:1
+msgid "My programs"
+msgstr "Programlarım"
 
 #: lms/templates/learner_dashboard/upgrade_message.underscore:3
 msgid "Needs verified certificate "
