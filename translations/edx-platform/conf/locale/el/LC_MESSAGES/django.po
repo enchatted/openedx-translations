@@ -37,7 +37,7 @@ msgstr ""
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
 "POT-Creation-Date: 2024-10-23 00:32+0000\n"
-"PO-Revision-Date: 2025-08-29 15:17+0300\n"
+"PO-Revision-Date: 2025-08-29 15:42+0300\n"
 "PO-Revision-Date: 2023-06-13 09:00+0000\n"
 "PO-Revision-Date: 2023-06-13 09:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -2970,7 +2970,10 @@ msgid ""
 "\n"
 "                    Proctoring requirements for %(course_name)s\n"
 "                "
-msgstr "Απαιτήσεις επίβλεψης για το %(course_name)s"
+msgstr ""
+"\n"
+"                    Απαιτήσεις επίβλεψης για το %(course_name)s\n"
+"                "
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html:20
 #, python-format
@@ -2978,7 +2981,10 @@ msgid ""
 "\n"
 "                    Hello %(full_name)s,\n"
 "                "
-msgstr "Γεια σας %(full_name)s,"
+msgstr ""
+"\n"
+"                    Γεια σας %(full_name)s,\n"
+"                "
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html:29
 #, python-format
@@ -2988,8 +2994,10 @@ msgid ""
 "%(platform_name)s. This course contains proctored exams.\n"
 "                "
 msgstr ""
-"Έχετε εγγραφεί στο %(course_name)s στο %(platform_name)s. Αυτό το μάθημα "
-"περιλαμβάνει εξετάσεις με επίβλεψη."
+"\n"
+"                    Έχετε εγγραφεί στο %(course_name)s στο "
+"%(platform_name)s. Αυτό το μάθημα περιλαμβάνει εξετάσεις με επίβλεψη.\n"
+"                "
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html:38
 #, python-format
@@ -3000,10 +3008,12 @@ msgid ""
 "audio. Your course uses %(proctoring_provider)s software for proctoring.\n"
 "                "
 msgstr ""
-"Οι εξετάσεις με επίβλεψη είναι χρονομετρημένες εξετάσεις που δίνετε ενώ ένα "
-"λογισμικό επίβλεψης παρακολουθεί την επιφάνεια εργασίας του υπολογιστή σας, "
-"το βίντεο της κάμερας web και τον ήχο. Το μάθημά σας χρησιμοποιεί το "
-"λογισμικό %(proctoring_provider)s για επίβλεψη."
+"\n"
+"                    Οι εξετάσεις με επίβλεψη είναι χρονομετρημένες εξετάσεις "
+"που δίνετε ενώ ένα λογισμικό επίβλεψης παρακολουθεί την επιφάνεια εργασίας "
+"του υπολογιστή σας, το βίντεο της κάμερας web και τον ήχο. Το μάθημά σας "
+"χρησιμοποιεί το λογισμικό %(proctoring_provider)s για επίβλεψη.\n"
+"                "
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html:46
 msgid ""
@@ -3012,16 +3022,21 @@ msgid ""
 "steps to take a proctored exam in order to ensure that you are prepared.\n"
 "                "
 msgstr ""
-"Εξετάστε προσεκτικά τις απαιτήσεις συστήματος, καθώς και τα βήματα για να "
-"κάνετε μια εξετάση με επίβλεψη, ώστε να βεβαιωθείτε ότι είστε "
-"προετοιμασμένοι."
+"\n"
+"                    Εξετάστε προσεκτικά τις απαιτήσεις συστήματος, καθώς και "
+"τα βήματα για να κάνετε μια εξετάση με επίβλεψη, ώστε να βεβαιωθείτε ότι "
+"είστε προετοιμασμένοι.\n"
+"                "
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html:53
 msgid ""
 "\n"
 "                Proctoring Instructions and Requirements\n"
 "            "
-msgstr "Οδηγίες και απαιτήσεις επίβλεψης"
+msgstr ""
+"\n"
+"                Οδηγίες και απαιτήσεις επίβλεψης\n"
+"            "
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html:60
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.txt:11
@@ -3045,7 +3060,7 @@ msgstr "Ευχαριστούμε,"
 #: lms/templates/verify_student/edx_ace/verificationsubmitted/email/body.txt:8
 #, python-format
 msgid "The %(platform_name)s Team "
-msgstr "Η ομάδα του %(platform_name)s"
+msgstr "Η ομάδα του %(platform_name)s "
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.txt:1
 #, python-format
@@ -3505,12 +3520,12 @@ msgstr ""
 
 #: lms/djangoapps/certificates/views/support.py:94
 msgid "user is not given."
-msgstr "Ο χρήστης δεν δίνεται."
+msgstr "ο χρήστης δεν δίνεται."
 
 #: lms/djangoapps/certificates/views/support.py:100
 #, python-brace-format
 msgid "user '{user}' does not exist"
-msgstr "Ο χρήστης '{user}' δεν υπάρχει"
+msgstr "ο χρήστης '{user}' δεν υπάρχει"
 
 #: lms/djangoapps/certificates/views/support.py:114
 #, python-brace-format
@@ -3580,7 +3595,7 @@ msgstr ""
 "Ένα πιστοποιητικό {cert_type} σημαίνει ότι ένας μαθητής έχει συμφωνήσει να "
 "τηρήσει τον κώδικα τιμής που έχει θεσπιστεί από το {platform_name} και έχει "
 "ολοκληρώσει όλες τις απαιτούμενες εργασίες για αυτό το μάθημα σύμφωνα με τις "
-"οδηγίες του."
+"οδηγίες του. "
 
 #: lms/djangoapps/certificates/views/webview.py:86
 #, python-brace-format
@@ -3632,7 +3647,7 @@ msgid ""
 "{platform_name} {certificate_type} Certificate of Completion in "
 msgstr ""
 "ολοκλήρωσε επιτυχώς, έλαβε προβιβάσιμο βαθμό και του/της απονεμήθηκε αυτό το "
-"πιστοποιητικό ολοκλήρωσης {platform_name} {certificate_type} στο"
+"πιστοποιητικό ολοκλήρωσης {platform_name} {certificate_type} στο "
 
 #. Translators: This text describes the purpose (and therefore, value) of a
 #. course certificate
@@ -3903,7 +3918,10 @@ msgid ""
 "\n"
 "                            There’s still time to reach your goal\n"
 "                        "
-msgstr "Υπάρχει ακόμα χρόνος να φτάσετε τον στόχο σας"
+msgstr ""
+"\n"
+"                            Υπάρχει ακόμα χρόνος να φτάσετε τον στόχο σας\n"
+"                        "
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:54
 #, python-format, python-brace-format
@@ -3920,20 +3938,27 @@ msgid_plural ""
 "quite there, but there's still time to reach that goal!\n"
 "                        "
 msgstr[0] ""
-"Έχετε θέσει ως στόχο να αφιερώνετε {start_bold}%(days_per_week)s ώρα την "
-"εβδομάδα στο %(course_name)s{end_bold}. Δεν είστε ακόμη εκεί, αλλά υπάρχει "
-"ακόμα χρόνος να τον επιτύχετε!"
+"\n"
+"                            Έχετε θέσει ως στόχο να αφιερώνετε {start_bold}"
+"%(days_per_week)s ώρα την εβδομάδα στο %(course_name)s{end_bold}. Δεν είστε "
+"ακόμη εκεί, αλλά υπάρχει ακόμα χρόνος να τον επιτύχετε!\n"
+"                            "
 msgstr[1] ""
-"Έχετε θέσει ως στόχο να αφιερώνετε {start_bold}%(days_per_week)s φορές την "
-"εβδομάδα στο %(course_name)s{end_bold}. Δεν είστε ακόμη εκεί, αλλά υπάρχει "
-"ακόμα χρόνος να τον επιτύχετε!"
+"\n"
+"                            Έχετε θέσει ως στόχο να αφιερώνετε {start_bold}"
+"%(days_per_week)s φορές την εβδομάδα στο %(course_name)s{end_bold}. Δεν "
+"είστε ακόμη εκεί, αλλά υπάρχει ακόμα χρόνος να τον επιτύχετε!\n"
+"                            "
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:78
 msgid ""
 "\n"
 "                                Jump back in\n"
 "                            "
-msgstr "Επιστρέψτε"
+msgstr ""
+"\n"
+"                               Επιστρέψτε\n"
+"                            "
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:88
 msgid ""
@@ -3942,15 +3967,21 @@ msgid ""
 "goal. The best goal is one that you can stick to.\n"
 "                        "
 msgstr ""
-"Θυμηθείτε, μπορείτε πάντα να αλλάξετε τον μαθησιακό σας στόχο. Ο καλύτερος "
-"στόχος είναι αυτός που μπορείτε να ακολουθήσετε."
+"\n"
+"                            Θυμηθείτε, μπορείτε πάντα να αλλάξετε τον "
+"μαθησιακό σας στόχο. Ο καλύτερος στόχος είναι αυτός που μπορείτε να "
+"ακολουθήσετε.\n"
+"                        "
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:107
 msgid ""
 "\n"
 "                            Adjust my goal\n"
 "                        "
-msgstr "Προσαρμόστε τον στόχο μου"
+msgstr ""
+"\n"
+"                            Προσαρμόστε τον στόχο μου\n"
+"                        "
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:127
 msgid ""
@@ -3958,7 +3989,11 @@ msgid ""
 "                            Unsubscribe from goal reminder emails for this "
 "course\n"
 "                        "
-msgstr "Απεγγραφή από τα email υπενθύμισης στόχου για αυτό το μάθημα"
+msgstr ""
+"\n"
+"                           Απεγγραφή από τα email υπενθύμισης στόχου για "
+"αυτό το μάθημα\n"
+"                        "
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.txt:2
 msgid "You're almost there!"
@@ -4352,7 +4387,7 @@ msgid ""
 "because                         the content start date is in the future"
 msgstr ""
 "Αυτός ο χρήστης δεν έχει πρόσβαση σε αυτό το περιεχόμενο επειδή η ημερομηνία "
-"έναρξης του περιεχομένου είναι στο μέλλον."
+"έναρξης του περιεχομένου είναι στο μέλλον"
 
 #: lms/djangoapps/courseware/masquerade.py:479
 msgid ""
@@ -4801,7 +4836,11 @@ msgid ""
 "\n"
 "                        %(course_name)s: Reported content awaits review\n"
 "                    "
-msgstr " %(course_name)s: Αναφερθέν περιεχόμενο αναμένει αναθεώρηση"
+msgstr ""
+"\n"
+"                        %(course_name)s: Αναφερθέν περιεχόμενο αναμένει "
+"αναθεώρηση\n"
+"                    "
 
 #: lms/djangoapps/discussion/templates/discussion/edx_ace/reportedcontentnotification/email/body.html:24
 #: lms/djangoapps/discussion/templates/discussion/edx_ace/reportedcontentnotification/email/body.txt:18
@@ -4929,7 +4968,7 @@ msgid ""
 "Found a conflict with given identifier. Please try an alternative identifier"
 msgstr ""
 "Βρέθηκε σύγκρουση με το δοθέν αναγνωριστικό. Παρακαλούμε δοκιμάστε ένα "
-"εναλλακτικό αναγνωριστικό."
+"εναλλακτικό αναγνωριστικό"
 
 #: lms/djangoapps/instructor/views/api.py:358
 #: lms/djangoapps/instructor/views/api.py:3586
@@ -5052,7 +5091,7 @@ msgstr ""
 #: lms/djangoapps/instructor/views/api.py:1153
 msgid "A list of usage keys for the blocks to include in the report. "
 msgstr ""
-"Μια λίστα κλειδιών χρήσης για τα μπλοκ που θα συμπεριληφθούν στην αναφορά."
+"Μια λίστα κλειδιών χρήσης για τα μπλοκ που θα συμπεριληφθούν στην αναφορά. "
 
 #: lms/djangoapps/instructor/views/api.py:1161
 msgid ""
@@ -5061,7 +5100,7 @@ msgid ""
 msgstr ""
 "Μια λίστα τύπων προβλημάτων/μπλοκ για τη δημιουργία της αναφοράς. Αυτό το "
 "πεδίο μπορεί να παραλειφθεί εάν η αναφορά πρέπει να περιλαμβάνει "
-"λεπτομέρειες όλων των τύπων μπλοκ."
+"λεπτομέρειες όλων των τύπων μπλοκ. "
 
 #: lms/djangoapps/instructor/views/api.py:1172
 msgid "User-friendly text describing current status of report generation."
@@ -5532,8 +5571,7 @@ msgid ""
 "refresh the page and try again"
 msgstr ""
 "Παρουσιάστηκε σφάλμα κατά την αφαίρεση της καταχώρισης της λίστας επιτρεπτών "
-"για τον φοιτητή {student}. Παρακαλούμε ανανεώστε τη σελίδα και δοκιμάστε "
-"ξανά."
+"για τον φοιτητή {student}. Παρακαλούμε ανανεώστε τη σελίδα και δοκιμάστε ξανά"
 
 #: lms/djangoapps/instructor/views/api.py:3451
 msgid ""
@@ -6064,7 +6102,7 @@ msgstr "Δεν είναι δυνατή η εύρεση παραληπτών γι
 #, python-brace-format
 msgid "Message failed to be {action} for any of {attempted} recipients "
 msgstr ""
-"Το μήνυμα απέτυχε να {action} για κανέναν από τους {attempted} παραλήπτες."
+"Το μήνυμα απέτυχε να {action} για κανέναν από τους {attempted} παραλήπτες. "
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {attempted} is a count.
@@ -6371,7 +6409,7 @@ msgstr "Το παρεχόμενο αναγνωριστικό μαθήματος 
 
 #: lms/djangoapps/teams/views.py:443
 msgid "text_search and order_by cannot be provided together"
-msgstr "Η text_search και η order_by δεν μπορούν να παρασχεθούν μαζί"
+msgstr "η text_search και η order_by δεν μπορούν να παρασχεθούν μαζί"
 
 #: lms/djangoapps/teams/views.py:454
 #, python-brace-format
@@ -6398,7 +6436,7 @@ msgstr "Το παρεχόμενο αναγνωριστικό μαθήματος 
 
 #: lms/djangoapps/teams/views.py:573
 msgid "topic_id is required"
-msgstr "Το topic_id είναι υποχρεωτικό"
+msgstr "το topic_id είναι υποχρεωτικό"
 
 #: lms/djangoapps/teams/views.py:592
 msgid "You can't create a team in an instructor managed topic."
@@ -6411,11 +6449,11 @@ msgstr "Είστε ήδη σε μια ομάδα σε αυτό το σύνολο
 
 #: lms/djangoapps/teams/views.py:1350
 msgid "teamset_id and team_id are mutually exclusive options."
-msgstr "Το teamset_id και το team_id είναι αμοιβαία αποκλειστικές επιλογές."
+msgstr "το teamset_id και το team_id είναι αμοιβαία αποκλειστικές επιλογές."
 
 #: lms/djangoapps/teams/views.py:1370
 msgid "teamset_id requires course_id to also be provided."
-msgstr "Το teamset_id απαιτεί να παρέχεται και το course_id."
+msgstr "το teamset_id απαιτεί να παρέχεται και το course_id."
 
 #: lms/djangoapps/teams/views.py:1386 lms/djangoapps/teams/views.py:1399
 msgid "No teamset found in given course with given id"
@@ -6424,7 +6462,7 @@ msgstr "Δεν βρέθηκε σύνολο ομάδων στο δοθέν μάθ
 #: lms/djangoapps/teams/views.py:1420
 msgid "username or (team_id or teamset_id) must be specified."
 msgstr ""
-"Πρέπει να καθοριστεί όνομα χρήστη ή (αναγνωριστικό ομάδας ή αναγνωριστικό "
+"πρέπει να καθοριστεί όνομα χρήστη ή (αναγνωριστικό ομάδας ή αναγνωριστικό "
 "συνόλου ομάδων)."
 
 #: lms/djangoapps/teams/views.py:1441
@@ -6565,7 +6603,7 @@ msgstr "Παρακαλούμε διορθώστε τα παρακάτω σφάλ
 msgid "Are you sure you want to cancel retirement for user \"%(username)s\"? "
 msgstr ""
 "Είστε βέβαιοι ότι θέλετε να ακυρώσετε τη συνταξιοδότηση για τον χρήστη "
-"\"%(username)s\";"
+"\"%(username)s\"; "
 
 #: lms/templates/admin/user_api/accounts/cancel_retirement_action.html:38
 #: xmodule/capa_block.py:1018 cms/templates/index.html:219
@@ -6588,7 +6626,10 @@ msgid ""
 "\n"
 "            This email was automatically sent from %(platform_name)s.\n"
 "          "
-msgstr "Αυτό το email στάλθηκε αυτόματα από το %(platform_name)s."
+msgstr ""
+"\n"
+"            Αυτό το email στάλθηκε αυτόματα από το %(platform_name)s.\n"
+"          "
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:24
 #, python-format
@@ -6598,8 +6639,10 @@ msgid ""
 "are enrolled in\n"
 "          "
 msgstr ""
-"Λαμβάνετε αυτό το email στη διεύθυνση %(email)s επειδή είστε εγγεγραμμένοι "
-"στο"
+"\n"
+"            Λαμβάνετε αυτό το email στη διεύθυνση %(email)s επειδή είστε "
+"εγγεγραμμένοι στο\n"
+"          "
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:30
 msgid ""
@@ -6608,8 +6651,10 @@ msgid ""
 "settings\n"
 "          "
 msgstr ""
-"Για να σταματήσετε να λαμβάνετε email όπως αυτό, ενημερώστε τις ρυθμίσεις "
-"email του μαθήματός σας"
+"\n"
+"            Για να σταματήσετε να λαμβάνετε email όπως αυτό, ενημερώστε τις "
+"ρυθμίσεις email του μαθήματός σας\n"
+"          "
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:33
 msgid "here"
@@ -6719,8 +6764,10 @@ msgid ""
 "%(course_name)s at %(site_name)s\n"
 "                "
 msgstr ""
-"Έχετε προσκληθεί να συμμετάσχετε ως δοκιμαστής beta για το μάθημα "
-"%(course_name)s στον ιστότοπο %(site_name)s"
+"\n"
+"                    Έχετε προσκληθεί να συμμετάσχετε ως δοκιμαστής beta για "
+"το μάθημα %(course_name)s στον ιστότοπο %(site_name)s\n"
+"                "
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html:20
 msgid "The invitation has been sent by a member of the course staff."
@@ -6747,7 +6794,9 @@ msgstr "Επισκεφτείτε το %(course_name)s"
 msgid ""
 "Visit %(site_name)s\n"
 "                "
-msgstr "Επισκεφθείτε το %(site_name)s"
+msgstr ""
+"Επισκεφθείτε το %(site_name)s\n"
+"                "
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html:63
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.txt:12
@@ -6994,7 +7043,10 @@ msgid ""
 "\n"
 "                    You have been unenrolled from %(course_name)s\n"
 "                "
-msgstr "Έχετε διαγραφεί από το %(course_name)s"
+msgstr ""
+"\n"
+"                    Έχετε διαγραφεί από το %(course_name)s\n"
+"                "
 
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.html:21
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.txt:3
@@ -7040,7 +7092,10 @@ msgid ""
 "\n"
 "                    You have been enrolled in %(course_name)s\n"
 "                "
-msgstr "Έχετε εγγραφεί στο %(course_name)s"
+msgstr ""
+"\n"
+"                    Έχετε εγγραφεί στο %(course_name)s\n"
+"                "
 
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/body.html:21
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/body.txt:3
@@ -7154,8 +7209,10 @@ msgid ""
 "the home page.\n"
 "                "
 msgstr ""
-"Αυτό μπορεί να διαρκέσει ένα λεπτό. Εάν δεν ανακατευθυνθείτε, μεταβείτε στην "
-"αρχική σελίδα."
+"\n"
+"                  Αυτό μπορεί να διαρκέσει ένα λεπτό. Εάν δεν "
+"ανακατευθυνθείτε, μεταβείτε στην αρχική σελίδα.\n"
+"                "
 
 #: lms/templates/logout.html:39
 #, python-format, python-brace-format
@@ -7297,7 +7354,7 @@ msgstr "Καλή μελέτη,"
 #: lms/templates/verify_student/edx_ace/verificationapproved/email/subject.txt:3
 #, python-format
 msgid "Your %(platform_name)s ID verification was approved!"
-msgstr "Η επαλήθευση ταυτότητας {platform_name} εγκρίθηκε!"
+msgstr "Η επαλήθευση ταυτότητας %(platform_name)s εγκρίθηκε!"
 
 #: lms/templates/verify_student/edx_ace/verificationexpiry/email/body.html:10
 msgid "Expired ID Verification"
@@ -8372,7 +8429,7 @@ msgstr ""
 
 #: openedx/core/djangoapps/content_libraries/models.py:281
 msgid "course ID"
-msgstr "Αναγνωριστικό μαθήματος"
+msgstr "αναγνωριστικό μαθήματος"
 
 #: openedx/core/djangoapps/content_libraries/models.py:282
 msgid "ID of the imported course."
@@ -8483,9 +8540,14 @@ msgid ""
 "unit.\n"
 "        "
 msgstr ""
-"Ποιος τύπος περιεχομένου προετοιμάζεται. Υποστηρίζεται μόνο το περιεχόμενο "
-"OLX και αυτό το πεδίο πρέπει να είναι ίδιο με την αρχική ετικέτα του OLX. "
-"π.χ. \"βίντεο\" εάν προετοιμάζεται ένα βίντεο, ή \"κάθετο\" για μια μονάδα."
+"\n"
+"            Ποιος τύπος περιεχομένου προετοιμάζεται. Υποστηρίζεται μόνο το "
+"περιεχόμενο OLX και\n"
+"            αυτό το πεδίο πρέπει να είναι ίδιο με την αρχική ετικέτα του "
+"OLX.\n"
+"            π.χ. \"βίντεο\" εάν προετοιμάζεται ένα βίντεο, ή \"κάθετο\" για "
+"μια μονάδα.\n"
+"        "
 
 #: openedx/core/djangoapps/content_staging/models.py:70
 msgid "Content tags applied to these blocks"
@@ -10381,7 +10443,7 @@ msgstr ""
 msgid "Some error occurred during password change. Please try again"
 msgstr ""
 "Παρουσιάστηκε σφάλμα κατά την αλλαγή του κωδικού πρόσβασης. Παρακαλούμε "
-"δοκιμάστε ξανά."
+"δοκιμάστε ξανά"
 
 #: openedx/core/djangoapps/user_authn/views/password_reset.py:668
 msgid "No email address provided."
@@ -10646,7 +10708,7 @@ msgstr ""
 #: openedx/core/djangoapps/xblock/runtime/mixin.py:69
 msgid "This content is only accessible to enrolled learners. "
 msgstr ""
-"Αυτό το περιεχόμενο είναι προσβάσιμο μόνο σε εγγεγραμμένους εκπαιδευόμενους."
+"Αυτό το περιεχόμενο είναι προσβάσιμο μόνο σε εγγεγραμμένους εκπαιδευόμενους. "
 
 #: openedx/core/lib/api/view_utils.py:159
 #, python-brace-format
@@ -11273,7 +11335,7 @@ msgstr "{input_type}: απροσδόκητη ετικέτα {tag_name}"
 #: xmodule/capa/inputtypes.py:1762
 #, python-brace-format
 msgid "Expected a {expected_tag} tag; got {given_tag} instead"
-msgstr "Αναμενόταν ετικέτα {expected_tag}. Λήφθηκε {given_tag} αντί αυτής."
+msgstr "Αναμενόταν ετικέτα {expected_tag}. Λήφθηκε {given_tag} αντί αυτής"
 
 #. Translators: index here could be 1,2,3 και so on
 #: xmodule/capa/responsetypes.py:258
@@ -11742,7 +11804,7 @@ msgid ""
 msgstr ""
 "Ορίζει πότε θα τυχαιοποιηθούν οι μεταβλητές που καθορίζονται στο σχετικό "
 "σενάριο Python. Για προβλήματα που δεν τυχαιοποιούν τιμές, καθορίστε "
-"\"Ποτέ\"."
+"\"Ποτέ\". "
 
 #: xmodule/capa_block.py:279
 msgid "On Reset"
@@ -12276,7 +12338,8 @@ msgstr ""
 "Βεβαιωθείτε ότι συμπεριλαμβάνετε το \"Τ\" μεταξύ της ημερομηνίας και της "
 "ώρας. Για παράδειγμα, μια καταχώριση που ορίζει δύο περιόδους απαγόρευσης "
 "μοιάζει με αυτό, συμπεριλαμβανομένου του εξωτερικού ζεύγους τετραγωνικών "
-"αγκυλών: [[\"2015-09-15\", \"2015-09-21\"], [\"2015-10-01\", \"2015-10-08\"]]"
+"αγκυλών: [[\"2015-09-15\", \"2015-09-21\"], [\"2015-10-01\", "
+"\"2015-10-08\"]] "
 
 #: xmodule/course_block.py:420
 msgid "Discussion Topic Mapping"
@@ -12562,7 +12625,7 @@ msgid ""
 "user can see their certificate for the course"
 msgstr ""
 "Αυτό το πεδίο, μαζί με την certificate_available_date, θα καθορίσει πότε "
-"ένας χρήστης μπορεί να δει το πιστοποιητικό του για το μάθημα."
+"ένας χρήστης μπορεί να δει το πιστοποιητικό του για το μάθημα"
 
 #: xmodule/course_block.py:595
 msgid "Course About Page Image"
@@ -13430,9 +13493,10 @@ msgstr "Επιλέξτε έναν άλλο τύπο προβλήματος."
 #, python-brace-format
 msgid "The specified library is configured to fetch {count} problem, "
 msgid_plural "The specified library is configured to fetch {count} problems, "
-msgstr[0] "Η καθορισμένη βιβλιοθήκη έχει ρυθμιστεί να ανακτά {count} πρόβλημα,"
+msgstr[0] ""
+"Η καθορισμένη βιβλιοθήκη έχει ρυθμιστεί να ανακτά {count} πρόβλημα, "
 msgstr[1] ""
-"Η καθορισμένη βιβλιοθήκη έχει ρυθμιστεί να ανακτά {count} προβλήματα,"
+"Η καθορισμένη βιβλιοθήκη έχει ρυθμιστεί να ανακτά {count} προβλήματα, "
 
 #: xmodule/library_content_block.py:360
 #, python-brace-format
@@ -13541,7 +13605,7 @@ msgstr ""
 "ανοίγει το εργαλείο LTI σε ένα νέο παράθυρο. Επιλέξτε False εάν θέλετε το "
 "περιεχόμενο LTI να ανοίγει σε ένα IFrame στην τρέχουσα σελίδα. Αυτή η "
 "ρύθμιση χρησιμοποιείται μόνο όταν το Hide External Tool έχει οριστεί σε "
-"False."
+"False. "
 
 #: xmodule/lti_block.py:190
 msgid "Scored"
@@ -14963,7 +15027,7 @@ msgstr "τύπος περιεχομένου"
 
 #: wiki/models/article.py:203
 msgid "object ID"
-msgstr "Αναγνωριστικό αντικειμένου"
+msgstr "αναγνωριστικό αντικειμένου"
 
 #: wiki/models/article.py:209
 msgid "Article for object"
@@ -15008,7 +15072,7 @@ msgid ""
 "title has not changed"
 msgstr ""
 "Κάθε αναθεώρηση περιέχει ένα πεδίο τίτλου που πρέπει να συμπληρωθεί, ακόμα "
-"και αν ο τίτλος δεν έχει αλλάξει."
+"και αν ο τίτλος δεν έχει αλλάξει"
 
 #: wiki/models/pluginbase.py:74
 msgid "original article"
@@ -16801,7 +16865,7 @@ msgstr ""
 "Μπορείτε να δημιουργήσετε και να επεξεργαστείτε προσαρμοσμένες σελίδες για "
 "να παρέχετε στους φοιτητές πρόσθετο περιεχόμενο μαθήματος. Για παράδειγμα, "
 "μπορείτε να δημιουργήσετε σελίδες για την πολιτική βαθμολόγησης, τις "
-"διαφάνειες του μαθήματος και ένα ημερολόγιο μαθήματος."
+"διαφάνειες του μαθήματος και ένα ημερολόγιο μαθήματος. "
 
 #: cms/templates/edit-tabs.html:181
 msgid "How do pages look to students in my course?"
@@ -16833,7 +16897,7 @@ msgstr ""
 "Μπορείτε να δημιουργήσετε και να επεξεργαστείτε προσαρμοσμένες σελίδες για "
 "να παρέχετε στους φοιτητές πρόσθετο περιεχόμενο μαθήματος. Για παράδειγμα, "
 "μπορείτε να δημιουργήσετε σελίδες για την πολιτική βαθμολόγησης, το "
-"πρόγραμμα του μαθήματος και ένα ημερολόγιο μαθήματος."
+"πρόγραμμα του μαθήματος και ένα ημερολόγιο μαθήματος. "
 
 #: cms/templates/edit-tabs.html:192
 msgid "How do custom pages look to students in my course?"
@@ -17229,7 +17293,7 @@ msgstr "Εξαγωγή μαθήματος σε Git:"
 msgid ""
 "giturl must be defined in your course settings before you can export to git."
 msgstr ""
-"Το giturl πρέπει να οριστεί στις ρυθμίσεις του μαθήματός σας πριν μπορέσετε "
+"το giturl πρέπει να οριστεί στις ρυθμίσεις του μαθήματός σας πριν μπορέσετε "
 "να εξάγετε σε git."
 
 #: cms/templates/export_git.html:53
@@ -17374,7 +17438,7 @@ msgid ""
 "them"
 msgstr ""
 "Το {studio_name} σας βοηθά να διαχειριστείτε τα online μαθήματά σας, ώστε να "
-"μπορείτε να επικεντρωθείτε στη διδασκαλία τους."
+"μπορείτε να επικεντρωθείτε στη διδασκαλία τους"
 
 #: cms/templates/howitworks.html:33
 msgid "{studio_name}'s Many Features"
@@ -17562,7 +17626,7 @@ msgstr "Εγγραφείτε στο {studio_name} σήμερα!"
 
 #: cms/templates/howitworks.html:166
 msgid "Sign Up & Start Making Your {platform_name} Course"
-msgstr "Εγγραφείτε & Ξεκινήστε να δημιουργείτε το μάθημα {platform_name}."
+msgstr "Εγγραφείτε & Ξεκινήστε να δημιουργείτε το μάθημα {platform_name}"
 
 #: cms/templates/howitworks.html:169
 msgid "Already have a {studio_name} Account? Sign In"
@@ -19167,7 +19231,7 @@ msgid ""
 "exam. "
 msgstr ""
 "Η βαθμολογία που πρέπει να επιτύχει ο φοιτητής για να ολοκληρώσει επιτυχώς "
-"την εισαγωγική εξέταση."
+"την εισαγωγική εξέταση. "
 
 #: cms/templates/settings.html:672
 msgid "Course Content License"
@@ -20049,13 +20113,9 @@ msgstr "Στείλτε ένα email στο {email}"
 
 #: cms/templates/widgets/sock_links.html:35
 #: lms/templates/support/contact_us.html:16
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Contact {platform_name} Support"
-msgstr ""
-"#-#-#-#-#  catalog.po (0.1a)  #-#-#-#-#\n"
-"Επικοινωνία με την υποστήριξη του {platform_name}\n"
-"#-#-#-#-#  catalog.po (0.1a)  #-#-#-#-#\n"
-"Επικοινωνήστε με την υποστήριξη {platform_name}"
+msgstr "Επικοινωνήστε με την υποστήριξη {platform_name}"
 
 #: cms/templates/widgets/tabs-aggregator.html:8
 #: lms/templates/courseware/static_tab.html:25
@@ -20168,7 +20228,7 @@ msgid ""
 "discussion"
 msgstr ""
 "Αυτή είναι μια ιδιωτική συζήτηση. Δεν έχετε δικαιώματα για να δείτε αυτή τη "
-"συζήτηση."
+"συζήτηση"
 
 #: lms/djangoapps/discussion/templates/discussion/discussion_profile_page.html:55
 #: lms/templates/discussion/_user_profile.html:8
@@ -20380,7 +20440,7 @@ msgstr "Υπάρχει ήδη λογαριασμός με τη νέα διεύθ
 #: lms/templates/enroll_staff.html:23
 msgid "You should Register before trying to access the Unit"
 msgstr ""
-"Πρέπει να εγγραφείτε πριν προσπαθήσετε να αποκτήσετε πρόσβαση στην ενότητα."
+"Πρέπει να εγγραφείτε πριν προσπαθήσετε να αποκτήσετε πρόσβαση στην ενότητα"
 
 #: lms/templates/courseware/course_about.html:281
 #: lms/templates/enroll_staff.html:34
@@ -20654,7 +20714,7 @@ msgid ""
 "fix it as soon as possible. "
 msgstr ""
 "Λυπούμαστε, αυτή η ενότητα είναι προσωρινά μη διαθέσιμη. Το προσωπικό μας "
-"εργάζεται για την επίλυσή της το συντομότερο δυνατό."
+"εργάζεται για την επίλυσή της το συντομότερο δυνατό. "
 
 #: lms/templates/module-error.html:28
 msgid "Raw data:"
@@ -21534,7 +21594,7 @@ msgid ""
 "{platform_name} users;"
 msgstr ""
 "συλλογή ή αποθήκευση ονομάτων, κωδικών πρόσβασης ή άλλων διαπιστευτηρίων "
-"χρηστών {platform_name}."
+"χρηστών {platform_name};"
 
 #: lms/templates/api_admin/terms_of_service.html:33
 msgid ""
@@ -21542,7 +21602,7 @@ msgid ""
 "copies of API Content;"
 msgstr ""
 "τεχνικές scraping ή παρόμοιες τεχνικές για τη συγκέντρωση ή με άλλο τρόπο τη "
-"δημιουργία μόνιμων αντιγράφων περιεχομένου API."
+"δημιουργία μόνιμων αντιγράφων περιεχομένου API;"
 
 #: lms/templates/api_admin/terms_of_service.html:34
 msgid ""
@@ -21553,13 +21613,13 @@ msgstr ""
 "παραβίαση, οικειοποίηση ή παραβίαση οποιουδήποτε δικαιώματος πνευματικής "
 "ιδιοκτησίας, δικαιωμάτων εμπορικού σήματος, δικαιωμάτων ιδιωτικότητας ή "
 "δημοσιότητας, εμπιστευτικών πληροφοριών ή οποιουδήποτε άλλου δικαιώματος "
-"τρίτου μέρους."
+"τρίτου μέρους;"
 
 #: lms/templates/api_admin/terms_of_service.html:35
 msgid "altering or editing any content or graphics in the API Content;"
 msgstr ""
 "αλλοίωση ή επεξεργασία οποιουδήποτε περιεχομένου ή γραφικών στο περιεχόμενο "
-"API."
+"API;"
 
 #: lms/templates/api_admin/terms_of_service.html:36
 msgid ""
@@ -21568,7 +21628,7 @@ msgid ""
 msgstr ""
 "αλλοίωση ή αφαίρεση οποιουδήποτε εμπορικού σήματος, πνευματικών δικαιωμάτων "
 "ή άλλων ιδιοκτησιακών ή νομικών ειδοποιήσεων που περιέχονται ή εμφανίζονται "
-"στα APIs ή σε οποιοδήποτε περιεχόμενο API."
+"στα APIs ή σε οποιοδήποτε περιεχόμενο API;"
 
 #: lms/templates/api_admin/terms_of_service.html:37
 msgid ""
@@ -21576,7 +21636,7 @@ msgid ""
 "APIs or your client secret to any third party;"
 msgstr ""
 "υπο-άδειας χρήσης, αναδιανομής, ενοικίασης, πώλησης ή μίσθωσης πρόσβασης στα "
-"APIs ή του μυστικού πελάτη σας σε οποιοδήποτε τρίτο μέρος."
+"APIs ή του μυστικού πελάτη σας σε οποιοδήποτε τρίτο μέρος;"
 
 #: lms/templates/api_admin/terms_of_service.html:38
 msgid ""
@@ -22888,7 +22948,7 @@ msgid ""
 "institution's logo"
 msgstr ""
 "{b_start}Επίσημο:{b_end} Λάβετε ένα πιστοποιητικό υπογεγραμμένο από τον "
-"εκπαιδευτή με το λογότυπο του ιδρύματος."
+"εκπαιδευτή με το λογότυπο του ιδρύματος"
 
 #: lms/templates/course_modes/choose.html:118
 msgid ""
@@ -22896,7 +22956,7 @@ msgid ""
 "or post it directly on LinkedIn"
 msgstr ""
 "{b_start}Εύκολα κοινοποιήσιμο:{b_end} Προσθέστε το πιστοποιητικό στο "
-"βιογραφικό σας ή δημοσιεύστε το απευθείας στο LinkedIn."
+"βιογραφικό σας ή δημοσιεύστε το απευθείας στο LinkedIn"
 
 #: lms/templates/course_modes/choose.html:139
 msgid ""
@@ -22915,7 +22975,7 @@ msgid ""
 "institution's logo"
 msgstr ""
 "{b_start}Επίσημο:{b_end} Λάβετε ένα πιστοποιητικό υπογεγραμμένο από τον "
-"εκπαιδευτή με το λογότυπο του ιδρύματος."
+"εκπαιδευτή με το λογότυπο του ιδρύματος"
 
 #: lms/templates/course_modes/choose.html:158
 msgid ""
@@ -22923,7 +22983,7 @@ msgid ""
 "or post it directly on LinkedIn"
 msgstr ""
 "{b_start}Εύκολα κοινοποιήσιμο:{b_end} Προσθέστε το πιστοποιητικό στο "
-"βιογραφικό σας ή δημοσιεύστε το απευθείας στο LinkedIn."
+"βιογραφικό σας ή δημοσιεύστε το απευθείας στο LinkedIn"
 
 #: lms/templates/course_modes/choose.html:159
 msgid ""
@@ -22931,7 +22991,7 @@ msgid ""
 "complete the course"
 msgstr ""
 "{b_start}Ενθαρρυντικό:{b_end} Δώστε στον εαυτό σας ένα επιπλέον κίνητρο για "
-"να ολοκληρώσετε το μάθημα."
+"να ολοκληρώσετε το μάθημα"
 
 #: lms/templates/course_modes/choose.html:184
 #: lms/templates/course_modes/choose.html:192
@@ -23018,7 +23078,7 @@ msgid ""
 "resumé to advance your career"
 msgstr ""
 "Παρουσιάστε ένα {link_start}επαληθευμένο πιστοποιητικό{link_end} ολοκλήρωσης "
-"στο βιογραφικό σας για να προωθήσετε την καριέρα σας."
+"στο βιογραφικό σας για να προωθήσετε την καριέρα σας"
 
 #: lms/templates/course_modes/fbe.html:20
 #, python-brace-format
@@ -23028,7 +23088,7 @@ msgid ""
 msgstr ""
 "Αποκτήστε {start_bold}πρόσβαση σε όλες τις δραστηριότητες του "
 "μαθήματος{end_bold}, συμπεριλαμβανομένων τόσο των βαθμολογούμενων όσο και "
-"των μη βαθμολογούμενων εργασιών, ενώ το μάθημα βρίσκεται σε εξέλιξη."
+"των μη βαθμολογούμενων εργασιών, ενώ το μάθημα βρίσκεται σε εξέλιξη"
 
 #: lms/templates/course_modes/fbe.html:24
 msgid "Show more"
@@ -23041,12 +23101,12 @@ msgid ""
 "after the course ends"
 msgstr ""
 "{start_bold}Πλήρης πρόσβαση{end_bold} στο περιεχόμενο και το υλικό του "
-"μαθήματος, ακόμη και μετά τη λήξη του."
+"μαθήματος, ακόμη και μετά τη λήξη του"
 
 #: lms/templates/course_modes/fbe.html:35
 #, python-brace-format
 msgid "{link_start}Learn more{link_end} about course access"
-msgstr "{link_start}Μάθετε περισσότερα{link_end} για την πρόσβαση στο μάθημα."
+msgstr "{link_start}Μάθετε περισσότερα{link_end} για την πρόσβαση στο μάθημα"
 
 #: lms/templates/course_modes/fbe.html:42
 #: lms/templates/course_modes/unfbe.html:23
@@ -23056,7 +23116,7 @@ msgid ""
 "education for everyone, everywhere"
 msgstr ""
 "Υποστηρίξτε την {start_bold}αποστολή{end_bold} μας για την αύξηση της "
-"πρόσβασης σε υψηλής ποιότητας εκπαίδευση για όλους, παντού."
+"πρόσβασης σε υψηλής ποιότητας εκπαίδευση για όλους, παντού"
 
 #: lms/templates/course_modes/fbe.html:53
 #, python-brace-format
@@ -23066,7 +23126,7 @@ msgid ""
 msgstr ""
 "Αποκτήστε προσωρινή πρόσβαση σε {start_bold}μη βαθμολογούμενες{end_bold} "
 "δραστηριότητες, συμπεριλαμβανομένων φόρουμ συζητήσεων και μη βαθμολογούμενων "
-"εργασιών."
+"εργασιών"
 
 #: lms/templates/course_modes/fbe.html:57
 #, python-brace-format
@@ -23075,7 +23135,7 @@ msgid ""
 "videos and readings"
 msgstr ""
 "Αποκτήστε {start_bold}προσωρινή πρόσβαση{end_bold} στο υλικό του μαθήματος, "
-"συμπεριλαμβανομένων βίντεο και αναγνωσμάτων."
+"συμπεριλαμβανομένων βίντεο και αναγνωσμάτων"
 
 #: lms/templates/course_modes/fbe.html:62
 msgid "Access expires and all progress will be lost on"
@@ -23107,7 +23167,7 @@ msgid ""
 msgstr ""
 "Μελέτες δείχνουν ότι όσοι επιλέγουν αυτή την επιλογή είναι {start_bold}"
 "περισσότερο αφοσιωμένοι και παρακινημένοι{end_bold} να ολοκληρώσουν τα "
-"μαθήματά τους."
+"μαθήματά τους"
 
 #: lms/templates/course_modes/track_selection.html:151
 msgid "Access this course"
@@ -23323,8 +23383,8 @@ msgid ""
 "this                     exam. Your current score is {current_score}%."
 msgstr ""
 "Για να αποκτήσετε πρόσβαση στο υλικό του μαθήματος, πρέπει να βαθμολογήσετε "
-"{required_score}% ή υψηλότερα σε αυτήν την εξέταση. Η τρέχουσα βαθμολογία "
-"σας είναι {current_score}%."
+"{required_score}% ή υψηλότερα σε αυτήν την                      εξέταση. Η "
+"τρέχουσα βαθμολογία σας είναι {current_score}%."
 
 #: lms/templates/courseware/courseware.html:275
 #, python-brace-format
@@ -23800,7 +23860,7 @@ msgid ""
 "identity with {platform_name}. "
 msgstr ""
 "Το πιστοποιητικό σας δεν εκδόθηκε επειδή δεν έχετε τρέχουσα επαληθευμένη "
-"ταυτότητα με το {platform_name}."
+"ταυτότητα με το {platform_name}. "
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:91
 #, python-brace-format
@@ -24398,7 +24458,7 @@ msgstr "Εμφάνιση σημειώσεων"
 
 #: lms/templates/emails/business_order_confirmation_email.txt:7
 msgid "Thank you for your purchase of "
-msgstr "Σας ευχαριστούμε για την αγορά σας"
+msgstr "Σας ευχαριστούμε για την αγορά του "
 
 #: lms/templates/emails/business_order_confirmation_email.txt:10
 msgid "Your payment was successful."
@@ -25541,7 +25601,12 @@ msgid ""
 "subsections to individual students. Please note that the latest date is "
 "always taken; you cannot use this tool to make an assignment due earlier for "
 "a particular student."
-msgstr "έναν συγκεκριμένο φοιτητή."
+msgstr ""
+"Σε αυτήν την ενότητα, έχετε τη δυνατότητα να χορηγήσετε παρατάσεις σε "
+"συγκεκριμένες υποενότητες σε μεμονωμένους μαθητές. Λάβετε υπόψη ότι "
+"λαμβάνεται πάντα υπόψη η τελευταία ημερομηνία. Δεν μπορείτε να "
+"χρησιμοποιήσετε αυτό το εργαλείο για να ορίσετε νωρίτερη ημερομηνία "
+"παράδοσης μιας εργασίας για έναν συγκεκριμένο μαθητή."
 
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html:15
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html:70
@@ -26012,7 +26077,7 @@ msgstr ""
 "επίσης να προσθέτουν και να αφαιρούν τους ρόλους συντονισμού συζητήσεων για "
 "τη διαχείριση της συμμετοχής στην ομάδα του μαθήματος. Όλοι οι χρήστες που "
 "δεν έχουν ακόμη εγγραφεί στο μάθημα θα εγγραφούν αυτόματα όταν προστεθούν ως "
-"Διαχειριστής Συζήτησης."
+"Διαχειριστής Συζήτησης"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:237
 msgid "Add Discussion Admin"
@@ -26056,7 +26121,7 @@ msgstr ""
 "μπορούν να διαχειριστούν τη συμμετοχή στην ομάδα του μαθήματος προσθέτοντας "
 "ή αφαιρώντας ρόλους συντονισμού συζητήσεων. Όλοι οι χρήστες που δεν έχουν "
 "ακόμη εγγραφεί στο μάθημα θα εγγραφούν αυτόματα όταν προστεθούν ως "
-"Συντονιστής Συζήτησης."
+"Συντονιστής Συζήτησης"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:265
 msgid "Add Moderator"
@@ -26084,7 +26149,7 @@ msgstr ""
 "αναρτήσεις από εκπαιδευόμενους στην ομάδα τους. Οι αναρτήσεις τους "
 "επισημαίνονται ως 'TA Κοινότητας'. Όλοι οι χρήστες που δεν έχουν ακόμη "
 "εγγραφεί στο μάθημα θα εγγραφούν αυτόματα όταν προστεθούν ως TA Κοινότητας "
-"Ομάδας."
+"Ομάδας"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:279
 msgid "Add Group Community TA"
@@ -26106,7 +26171,7 @@ msgstr ""
 "κλείσουν ή να ξανανοίξουν θέματα, και να υποστηρίξουν απαντήσεις. Οι "
 "αναρτήσεις τους επισημαίνονται ως 'TA Κοινότητας'. Όλοι οι χρήστες που δεν "
 "έχουν ακόμη εγγραφεί στο μάθημα θα εγγραφούν αυτόματα όταν προστεθούν ως TA "
-"Κοινότητας."
+"Κοινότητας"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:292
 msgid "Add Community TA"
@@ -26748,6 +26813,7 @@ msgid ""
 "{end_ul_tag}\n"
 "{end_p_tag}\n"
 msgstr ""
+"\n"
 "{p_tag}Προς το παρόν δεν έχετε αξιολόγηση από ομοτίμους για να κάνετε. Για "
 "να έχετε αξιολόγηση από ομοτίμους:\n"
 "{ul_tag}\n"
@@ -26835,7 +26901,7 @@ msgid ""
 "This submission has explicit, offensive, or (I suspect) plagiarized content. "
 msgstr ""
 "Αυτή η υποβολή περιέχει ρητό, προσβλητικό ή (υποψιάζομαι) λογοκλοπικό "
-"περιεχόμενο."
+"περιεχόμενο. "
 
 #: lms/templates/peer_grading/peer_grading_problem.html:65
 msgid "How did I do?"
@@ -27050,7 +27116,7 @@ msgid ""
 "Our staff is currently working to get the site back up as soon as possible. "
 msgstr ""
 "Το προσωπικό μας εργάζεται επί του παρόντος για την επαναλειτουργία του "
-"ιστότοπου το συντομότερο δυνατό."
+"ιστότοπου το συντομότερο δυνατό. "
 
 #: lms/templates/static_templates/server-error.html:16
 #, python-brace-format
@@ -27075,7 +27141,7 @@ msgid ""
 " and access to private sites offered by MIT Open Learning, Wharton Executive "
 "Education, and Harvard Medical School"
 msgstr ""
-"και πρόσβαση σε ιδιωτικούς ιστότοπους που προσφέρονται από το MIT Open "
+" και πρόσβαση σε ιδιωτικούς ιστότοπους που προσφέρονται από το MIT Open "
 "Learning, το Wharton Executive Education και την Ιατρική Σχολή του Harvard"
 
 #: lms/templates/student_account/finish_auth.html:6
@@ -27626,7 +27692,7 @@ msgstr ""
 msgid "Please complete the following fields to register for an account. "
 msgstr ""
 "Παρακαλούμε συμπληρώστε τα ακόλουθα πεδία για να εγγραφείτε για έναν "
-"λογαριασμό."
+"λογαριασμό. "
 
 #: themes/stanford-style/lms/templates/register-form.html:89
 msgid "example: Jane Doe"
